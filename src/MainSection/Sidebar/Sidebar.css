@@ -1,0 +1,16 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+}
+.side-image{
+    width: 100%;
+}
+
+.date{
+    color: green;
+    font-style: italic;
+    margin:  0;
+}
+h4{
+margin: 10px;
+}

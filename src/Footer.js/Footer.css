@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+button{
+    height: 3rem;
+    background-color: black;
+    color: #fff;
+}
+.footer-head{
+    border-bottom: 2px solid #333;
+    padding-bottom: 5rem;
+}
+
+h1{
+    font-size: 3rem;
+    letter-spacing: -1px;
+    font-style: oblique;
+}
+h3{
+    color: #333;
+    font-size: 2rem;
+}
+input{
+    
+    width: 50%;
+    height: 3rem;
+}
+.footer-link{
+    padding: 3rem 1rem;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+align-items: center;
+color: #555;
+}
+.footer-items{
+    font-size: 2rem;
+    list-style: none;
+    
+}

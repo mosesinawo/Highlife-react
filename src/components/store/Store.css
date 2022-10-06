@@ -1,0 +1,89 @@
+.main{
+    object-fit: cover;
+    width: 100%;
+    height: 50vh;
+}
+.main-text{
+    position: absolute;
+    top: 2rem;
+    left: 3rem;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+.text-head{
+    font-family: "richie Brusher";
+    color: #ff0088;
+    font-size: 3rem;
+}
+.text-name{
+    font-size: 1.5rem;
+    color: #10d869;
+    font-weight: 700;
+}
+.shop-now{
+color: #fff;
+font-size: 2rem;
+text-transform: uppercase;
+background-color: #ff0088;
+padding: 0.3rem 2rem;
+}
+.shop-now:hover{
+    scale: 1.1;
+    transition: all .3s ease;
+}
+.filter-container{
+    border-bottom: 3px solid #eee;
+}
+.filter{
+font-size: 1.5rem;
+display: inline-block;
+padding-top: 0.5rem;
+}
+.filter:hover{
+    border-bottom: 3px solid black;
+}
+
+.main-items{
+    cursor: pointer;
+
+}
+.main-items:hover{
+    color: #10d869;
+}
+.gallary-container{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+.store-gallary{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.gallary-image{
+    background-color: #eee;
+    min-height: 40vh;
+    min-width: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    transition: all .3s ease;
+}
+.gallary-image:hover{
+ border: 2px solid #10d869;
+}
+.store-image{
+   max-width: 65%;
+   max-height: 65%;
+    transition: all .3s ease;
+}
+.store-image:hover{
+    scale: 1.2;
+}
+.price{
+    font-size: 1.5rem;
+    color: #10d869;
+    font-weight: 600;
+}

@@ -1,0 +1,55 @@
+.body{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 6rem
+};
+   
+.first-part{
+    display: flex;
+    gap: 1rem;
+}
+
+.life-image{
+    width: 29vw;
+    height: 50vh;
+    object-fit: cover;
+   
+}
+
+.second-part{
+    display: flex;
+    grid-template-columns: repeat(3, 19.5rem);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 1rem;
+}
+.lifeblood{
+    width: 20vw;
+    
+    object-fit: cover;
+}
+
+.third{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+   
+}
+.world{
+    display: flex;
+    flex-direction: column;
+}
+.fourth{
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.box-9{
+    margin-top: 2rem;
+    background-color: #00a651;
+    padding: 0.3rem 2rem;
+    text-align: center;
+    display: inline-block;
+   transform: translateX(160%);
+}
