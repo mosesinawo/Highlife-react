@@ -24,7 +24,7 @@ const  HeaderNavbar = () => {
        <li className="nav-li"> <Link to='/' className="navbar-items">Life Blood</Link></li>
        <li className="nav-li"> <Link to='/categories' className="navbar-items"> Carlton Williams</Link></li>
        <li className="nav-li"> <Link to='/store' className="navbar-items">Store</Link></li>
-       <li className="nav-li"> <Link className="navbar-items">HighLife Tv</Link></li>
+       <li className="nav-li"> <Link to='/highlifetv' className="navbar-items">HighLife Tv</Link></li>
        <li className="nav-li"> <Link className="navbar-items"> Naira</Link></li>
     </ul>
     <div className="user">

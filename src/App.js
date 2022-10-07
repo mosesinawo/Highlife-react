@@ -4,6 +4,7 @@ import Home from './components/Home';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Categories from './components/categories/Categories';
 import Store from './components/store/Store';
+import Highlife from './components/highlife/Highlife';
 
 
 function App() {
@@ -20,6 +21,9 @@ function App() {
         </Route>
         <Route path='/store'>
       <Store/>
+        </Route>
+        <Route path='/highlifetv'>
+      <Highlife/>
         </Route>
 
       </Switch>
