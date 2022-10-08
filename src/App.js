@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Categories from './components/categories/Categories';
 import Store from './components/store/Store';
 import Highlife from './components/highlife/Highlife';
+import Niara from './components/Niara/Niara';
 
 
 function App() {
@@ -25,9 +26,11 @@ function App() {
         <Route path='/highlifetv'>
       <Highlife/>
         </Route>
+        <Route path='/niara'>
+      <Niara/>
+        </Route>
 
       </Switch>
-     
     </div>
 
     </Router>

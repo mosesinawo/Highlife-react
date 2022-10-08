@@ -23,7 +23,7 @@ const Highlife = () => {
                     <div style={{textAlign:'start', padding:'2rem 2rem 0 0'}}>
 
                         <h2 style={{color:' #10d869', }}>Life on the Sweet Side</h2>
-                        <h6>Carlton Williams</h6>
+                        <h6 style={{color: 'white'}}>Carlton Williams</h6>
                         <p>Brody tries to protect his house as wildfires tear
                             through Malibu, and Justin is
                             caught in the middle when Audrina and Stephanie address rumors

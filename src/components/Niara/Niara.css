@@ -1,0 +1,25 @@
+.select{
+    width:30%;
+    height:3rem;
+    background-color: #eee;
+    border: 3px solid #28c56e;
+}
+.option{
+    width:30%;
+    height:3rem;
+    background-color: #eee;
+    padding: 4rem;
+}
+.select:active,
+.select:target{
+    border: 3px solid #28c56e;
+}
+.niara-image{
+    height: 30vh;
+    width: 100%;   
+    object-fit: cover; 
+
+}
+.niara-text{
+    text-align: start;
+}
