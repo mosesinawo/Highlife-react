@@ -2,7 +2,7 @@
 // import Row from 'react-bootstrap/Row';
 // import Col from 'react-bootstrap/Col';
 // import 'bootstrap/dist/css/bootstrap.min.css';
-import "./Main.css";
+
 import lifeBlood1 from "../img/lifeblood-1.png";
 import lifeBlood2 from "../img/lifeblood-2.png";
 import lifeBlood4 from "../img/lifeblood-4.png";
@@ -13,7 +13,7 @@ import lifeBlood7 from "../img/lifeblood-7.png";
 import lifeBlood8 from "../img/lifeblood-8.png";
 import lifeBlood9 from "../img/lifeblood-9.png";
 import lifeBlood10 from "../img/lifeblood-10.png";
-
+import "./Main.css";
 // import niara8 from "../img/niara-8.png";
 // import radio from "../img/radio.png";
 
@@ -25,7 +25,7 @@ const Section1 = () => {
         <div className="left-part" style={{flex:''}}>
 
 
-            <div className="first-part" style={{display:'flex', gap: '1rem'}}>
+            <div className="upper-part" style={{display:'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap:'1rem'}}>
                 <div className='lifeblood1'>
 
                     <img className='life-image' src={lifeBlood1} alt="lifeBlood1" />
@@ -69,10 +69,6 @@ const Section1 = () => {
                         <h5 className='text'>Testimonials - Hows keji was saved by a blood donor</h5>
                     </div>
                 </div>
-            </div>
-            <div className="third">
-
-
 
                 <div className="box-4">
 
@@ -98,12 +94,15 @@ const Section1 = () => {
                         <h5 className='text'>world blood Donor 2019 celebration</h5>
                     </div>
                 </div>
-
             </div>
+        
+
+
+
             <div className="fourth">
                 <div className="box-7">
 
-                    <img className='lifeblood' src={lifeBlood9} alt="lifeBlood9" />
+                    <img className='forth-image' src={lifeBlood9} alt="lifeBlood9" />
                     <div className='text-container' >
                         <h3 className='text'>The definitive article on blood diseases
                         </h3>
@@ -111,7 +110,7 @@ const Section1 = () => {
                 </div>
                 <div className="box-8">
 
-                    <img className='lifeblood' src={lifeBlood10} alt="lifeBlood10" />
+                    <img className='forth-image' src={lifeBlood10} alt="lifeBlood10" />
                     <div className='text-container' >
                         <h3 className='text'>Testimonials - Baby Temi's got her groove back
                         </h3>

@@ -14,37 +14,19 @@ import { Col, Container, Row } from 'react-bootstrap';
 const Categories = () => {
     return (
         <div>
-<Carlton/>
-            <Container fluid className='middle'>
+            <Carlton />
+            <div>
+            <select className='select' style={{marginTop:'2rem',}}>
+              <option className='option'>Categories</option>
+            </select>
+            </div>
+            <div className='middle'>
 
-                <Col className=' categories-middle'>
-                    <Row className='middle-top'>
+                <div className=' categories-middle'>
 
-                        <div className='middle-1'>
-                            <img src={Categories1} alt='caegories1' className='middle-small' />
 
-                            <div className='middle-text'>
-                                <p>
-                                    Life on the Sweet side /
-                                    <span> Carlton Williams</span>
-                                </p>
-
-                            </div>
-                        </div>
-                        <div className='middle-1'>
-                            <img src={Categories2} alt='caegories2' className='middle-small'/>
-
-                            <div className='middle-text'>
-                                <p>
-                                    Life on the Sweet side /
-                                    <span> Carlton Williams</span>
-                                </p>
-
-                            </div>
-                        </div>
-                    </Row>
-                    <Row className='middle-1'>
-                        <img src={Categories3} alt='caegories3'className='middle-large' />
+                    <div className='middle-1'>
+                        <img src={Categories1} alt='caegories1' className='middle-image' />
 
                         <div className='middle-text'>
                             <p>
@@ -53,38 +35,61 @@ const Categories = () => {
                             </p>
 
                         </div>
-                    </Row>
-                    <Row className='middle-buttom'>
+                    </div>
+                    <div className='middle-2'>
+                        <img src={Categories2} alt='caegories2' className='middle-image' />
 
-                        <div className='middle-1'>
-                            <img src={Categories4} alt='caegories4' className='middle-small'/>
+                        <div className='middle-text'>
+                            <p>
+                                Life on the Sweet side /
+                                <span> Carlton Williams</span>
+                            </p>
 
-                            <div className='middle-text'>
-                                <p>
-                                    Life on the Sweet side /
-                                    <span> Carlton Williams</span>
-                                </p>
-
-                            </div>
                         </div>
-                        <div className='middle-1'>
-                            <img src={Categories5} alt='caegories5' className='middle-small' />
+                    </div>
 
-                            <div className='middle-text'>
-                                <p>
-                                    Life on the Sweet side /
-                                    <span> Carlton Williams</span>
-                                </p>
+                    <div className='middle-3'>
+                        <img src={Categories3} alt='caegories3' className='middle-image' />
 
-                            </div>
+                        <div className='middle-text'>
+                            <p>
+                                Life on the Sweet side /
+                                <span> Carlton Williams</span>
+                            </p>
+
                         </div>
-                    </Row>
+                    </div>
 
-                </Col>
-                <Col md={4}>
-                <Section2 />
-                </Col>
-            </Container>
+
+                    <div className='middle-4'>
+                        <img src={Categories4} alt='caegories4' className='middle-image' />
+
+                        <div className='middle-text'>
+                            <p>
+                                Life on the Sweet side /
+                                <span> Carlton Williams</span>
+                            </p>
+
+                        </div>
+                    </div>
+                    <div className='middle-5'>
+                        <img src={Categories5} alt='caegories5' className='middle-image' />
+
+                        <div className='middle-text'>
+                            <p>
+                                Life on the Sweet side /
+                                <span> Carlton Williams</span>
+                            </p>
+
+                        </div>
+                    </div>
+
+
+                </div>
+                <div>
+                    <Section2 />
+                </div>
+            </div>
             <Footer />
         </div >
 
