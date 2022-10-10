@@ -18,7 +18,7 @@ h1{
     letter-spacing: -1px;
     font-style: oblique;
 }
-h3{
+.footer-text{
     color: #333;
     font-size: 2rem;
 }

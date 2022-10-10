@@ -6,29 +6,36 @@
     padding: 2rem 6rem
 };
    
-.first-part{
-    display: flex;
+.upper-part{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
 }
 
 .life-image{
-    width: 29vw;
-    height: 50vh;
+    width: 100%;
+    height: 30vh;
     object-fit: cover;
    
 }
 
 .second-part{
-    display: flex;
-    grid-template-columns: repeat(3, 19.5rem);
-    grid-template-rows: repeat(2, 1fr);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+   
     column-gap: 1rem;
 }
 .lifeblood{
     width: 20vw;
-    
     object-fit: cover;
 }
+
+.forth-image{
+    object-fit: cover;
+    width: 100%;
+    height: 30vh;
+}
+
 
 .third{
     display: flex;
@@ -45,11 +52,51 @@
     gap: 1rem;
     margin-top: 2rem;
 }
+.fourth{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
 .box-9{
     margin-top: 2rem;
     background-color: #00a651;
     padding: 0.3rem 2rem;
     text-align: center;
     display: inline-block;
-   transform: translateX(160%);
+   /* transform: translateX(160%); */
+}
+.carousel{
+    display: none;
+}
+.carousel-caption{
+    position: unset;
+}
+
+@media only screen and (max-width:960px){
+    .body{
+        flex-direction: column;
+        padding: 2rem 1rem;
+    }
+    .lifeblood{
+        width: 30vw;
+    }
+    
+}
+@media only screen and (max-width: 580px){
+    .left-part{
+        display:none;
+    }
+    .carousel{
+        display: block;
+        overflow: hidden;
+    }
+    .carousel-image{
+        overflow: hidden;
+        width: 100%;
+    }
+    .carousel-caption{
+        position: unset;
+    }
+    .text{
+        color: black;
+    }
 }
