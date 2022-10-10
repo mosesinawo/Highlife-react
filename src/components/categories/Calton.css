@@ -21,7 +21,7 @@
     background-size: cover;
         height: 37vh;
         position: relative;
-        margin: 1rem 0 0 1rem;
+      
     }
     .sub2{
         background-image: url(./img/niara-3.png);
@@ -29,7 +29,7 @@
     background-size: cover;
         height: 37vh;
         position: relative;
-        margin: 1rem 0 0 1rem;
+      
     }
     .carlton-image1{
         width: 100%;
@@ -57,4 +57,18 @@
     }
     .carlton-williams{
        
+    }
+    @media only screen and (max-width: 960px){
+        .sub2{
+            margin-top: 1rem;
+        }
+    }
+    @media only screen and (max-width: 767.50px){
+        .carlton-container1{
+            height: 50vh;
+            
+        }
+        .sub1{
+            margin-top: 1rem;
+        }
     }

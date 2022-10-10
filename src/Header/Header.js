@@ -16,32 +16,41 @@ import "./Header.css";
 
 
 const Header = () => {
-    return (
-        <div className='header-body'>
-          <div className='image-red'>
-            <img className='header-image' src={image1} alt='img1'/>
-          </div>
-          <div className='image-text'>
-            <h1 className='text-header'>Life Blood</h1>
-            <div>
+  return (
+    <div className='header-body'>
+      <div className='image-red'>
+        <img className='header-image' src={image1} alt='img1' />
+      </div>
+      <div className='image-text'>
+        <h1 className='text-header'>Life Blood</h1>
+        <div>
 
-            <span className='text-items'>About</span>  <span className='text-items'>  Contact</span>   <span className='text-items'>  Events</span>
-            </div>
-
-          </div>
-          <div className='image-green'>
-          <img className='header-image-1' src={image2} alt='img2'/>
-          </div>
-          <div className='image-blue'>
-          <img className='header-image' src={image3} alt='img3'/>
-          </div>
-          <div className='image-yellow'>
-          <img className='header-image-1' src={image4} alt='img4'/>
-          </div>
-
-
+          <span className='text-items'>About</span>  <span className='text-items'>  Contact</span>   <span className='text-items'>  Events</span>
         </div>
-    );
+
+      </div>
+      <div className='image-green' >
+          <img className='header-image-1' src={image2} alt='img2' />
+        <div className='grid-text'>
+          <h2 className='header-tag'> Get Involved</h2>
+        </div>
+      </div>
+      <div className='image-blue'>
+        <img className='header-image' src={image3} alt='img3' />
+         <div className='grid-text'>
+          <h2  className='header-tag'> FAQ</h2>
+        </div>
+      </div>
+      <div className='image-yellow'>
+          <img className='header-image-2' src={image4} alt='img4' />
+      <div className='grid-text'>
+          <h2 className='header-tag'> Give</h2>
+        </div>
+      </div>
+
+
+    </div>
+  );
 }
 
 export default Header

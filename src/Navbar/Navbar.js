@@ -22,7 +22,7 @@ const HeaderNavbar = () => {
                     <img src={logo} alt='logo' />
                 </div>
                 <div onClick={showLink} className="bars-container">
-                    <img className="bars" src={bars} alt='bars' />
+                    <i className={mobile ? "fas fa-times" : "fas fa-bars"} /> 
                 </div>
 
                 <ul className={mobile ? "navbar-link active " : 'navbar-link'}>

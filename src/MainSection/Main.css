@@ -64,14 +64,39 @@
     display: inline-block;
    /* transform: translateX(160%); */
 }
+.carousel{
+    display: none;
+}
+.carousel-caption{
+    position: unset;
+}
 
 @media only screen and (max-width:960px){
     .body{
         flex-direction: column;
-        padding: 2rem 4rem;
+        padding: 2rem 1rem;
     }
     .lifeblood{
         width: 30vw;
     }
     
+}
+@media only screen and (max-width: 580px){
+    .left-part{
+        display:none;
+    }
+    .carousel{
+        display: block;
+        overflow: hidden;
+    }
+    .carousel-image{
+        overflow: hidden;
+        width: 100%;
+    }
+    .carousel-caption{
+        position: unset;
+    }
+    .text{
+        color: black;
+    }
 }

@@ -4,7 +4,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 
 const Carlton = () => {
   return (
-    <Container fluid>
+    <Container fluid style={{marginTop: '5rem'}}>
             <Row className='carlton'>
 
                 <Col md={8} className='carlton-container1'>

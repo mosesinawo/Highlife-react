@@ -10,7 +10,7 @@ import Footer from '../../Footer.js/Footer';
 
 const Highlife = () => {
     return (
-        <Container style={{ margin: ' ' }}>
+        <Container style={{ marginTop: ' 9rem' }}>
             <Row className='highlife-black'>
                 
                 <Col md={8}>
