@@ -3,6 +3,7 @@
 import logo from "../img/logo.png";
 import user from "../img/SVG/user-solid-circle.svg";
 import cart from "../img/SVG/shopping-cart.svg";
+import magnifying from "../img/SVG/magnifying-glass.svg";
 import bars from '../img/bars.png';
 import "./Navbar.css";
 import { Link } from 'react-router-dom';
@@ -22,25 +23,26 @@ const HeaderNavbar = () => {
                     <img src={logo} alt='logo' />
                 </div>
                 <div onClick={showLink} className="bars-container">
-                    <i className={mobile ? "fas fa-times" : "fas fa-bars"} /> 
+                   <span style={{fontSize:'1.7rem', color:'#00a651'}}> Menu   </span> <i className={mobile ? "fas fa-times" : "fas fa-bars"} /> 
                 </div>
 
                 <ul className={mobile ? "navbar-link active " : 'navbar-link'}>
-                    <li onClick={hideLink} className="nav-li"> <Link to='/' className="navbar-items">Life Blood</Link></li>
+                    <li onClick={hideLink} className="nav-li"> <Link to='/' style={{borderBottom:"3px, solid black",}} className="navbar-items">Life Blood</Link></li>
                     <li onClick={hideLink} className="nav-li"> <Link to='/categories' className="navbar-items"> Carlton Williams</Link></li>
                     <li onClick={hideLink} className="nav-li"> <Link to='/store' className="navbar-items">Store</Link></li>
                     <li onClick={hideLink} className="nav-li"> <Link to='/highlifetv' className="navbar-items">HighLife Tv</Link></li>
                     <li onClick={hideLink} className="nav-li"> <Link to='/niara' className="navbar-items"> Naira</Link></li>
+                    <li  className="nav-li"><img className=" icons" src={magnifying} alt='magnify'/></li>
                     <div className="user1">
-                        <img className="user-items" src={user} alt="user" />
-                        <img className="user-items" src={cart} alt="cart" />
-                        <span className="login">Sign Up/Login</span>
+                        <img className="user-items icons" src={user} alt="user" />
+                        <img className="user-items icons" src={cart} alt="cart" />
+                        <button className="login">Sign Up/Login</button>
                     </div>
                 </ul>
                 <div className="user">
-                    <img className="user-items" src={user} alt="user" />
-                    <img className="user-items" src={cart} alt="cart" />
-                    <span className="login">Sign Up/Login</span>
+                    <img className="user-items icons " src={user} alt="user" />
+                    <img className="user-items icons" src={cart} alt="cart" />
+                    <button className="login">Sign Up/Login</button>
                 </div>
             </div>
 

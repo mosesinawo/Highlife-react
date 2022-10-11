@@ -57,12 +57,13 @@
     grid-template-columns: repeat(2, 1fr);
 }
 .box-9{
+    cursor: pointer;
     margin-top: 2rem;
     background-color: #00a651;
     padding: 0.3rem 2rem;
     text-align: center;
     display: inline-block;
-   /* transform: translateX(160%); */
+   transform: translateX(100%);
 }
 .carousel{
     display: none;
@@ -70,7 +71,18 @@
 .carousel-caption{
     position: unset;
 }
-
+.last-text{
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+}
+.inner-text{
+color: #fff;
+text-decoration: none;
+}
+.inner-text:hover{
+    color: #fff;
+}
 @media only screen and (max-width:960px){
     .body{
         flex-direction: column;

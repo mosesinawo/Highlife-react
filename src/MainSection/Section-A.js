@@ -16,6 +16,7 @@ import lifeBlood8 from "../img/lifeblood-8.png";
 import lifeBlood9 from "../img/lifeblood-9.png";
 import lifeBlood10 from "../img/lifeblood-10.png";
 import "./Main.css";
+import { Link } from "react-router-dom";
 // import niara8 from "../img/niara-8.png";
 // import radio from "../img/radio.png";
 
@@ -130,7 +131,7 @@ const Section1 = () => {
             </div>
         </div>
         <div className="box-9">
-            <p className="last-text">LiveBlood Archives</p>
+            <p className="last-text"> <Link className="inner-text">LiveBlood Archives</Link></p>
         </div>
         
 

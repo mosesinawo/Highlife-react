@@ -19,6 +19,8 @@ margin: 10px;
 }
 
 .side-head{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
     border-bottom: 3px solid black;
     display: inline;
     text-align: center;

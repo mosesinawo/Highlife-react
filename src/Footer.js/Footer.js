@@ -7,7 +7,7 @@ const Footer = () => {
     <div className='container'>
       <div className='footer-head'>
         <h1 className='footer-text' > Be a Part of The Highlife World</h1>
-        <h3>Join our mailing list</h3>
+        <h3 className='footer-text2'>Join our mailing list</h3>
         <div className='footer-input'>
 
         <input type='text' placeholder='email@example.com' /><button type='button'>SUBSCRIBE</button>
@@ -15,7 +15,7 @@ const Footer = () => {
       </div>
       <div className=''>
         <ul className='footer-link'>
-          <li className='footer-items'><img src={logo} alt='logo' /></li>
+          <li style={{borderBottom: 'none'}} className='footer-items'><img src={logo} alt='logo' /></li>
           <li className='footer-items'>About</li>
           <li className='footer-items'>Contact</li>
           <li className='footer-items'>Give</li>

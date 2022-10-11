@@ -13,18 +13,23 @@ button{
     padding-bottom: 5rem;
 }
 
-h1{
-    font-size: 3rem;
-    letter-spacing: -1px;
-    font-style: oblique;
+.footer-text2{
+    font-family: "Oswald-regular", sans-serif;
+    font-size: 1.5rem;
+    color:#565656;
+    letter-spacing: -2px;
 }
 .footer-text{
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
     color: #333;
+    font-size: 3rem;
+    letter-spacing: -1px;
     font-size: 2rem;
 }
 input{
     
-    width: 50%;
+    width: 40%;
     height: 3rem;
 }
 .footer-link{
@@ -34,10 +39,21 @@ input{
     justify-content: center;
 align-items: center;
 color: #555;
+
 }
 .footer-items{
-    font-size: 2rem;
-    list-style: none;  
+    font-family: "Oswald-regular", sans-serif;
+    font-size: 1.5rem;
+    list-style: none; 
+    letter-spacing: -1px;
+    color: #333;
+    text-transform: uppercase;
+    display: inline-block;
+    cursor: pointer;
+}
+.footer-items:hover{
+    color: black;
+    border-bottom: 4px solid black;
 }
 @media only screen and ( max-width: 960px){
     .footer-link{

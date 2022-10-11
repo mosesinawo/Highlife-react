@@ -1,9 +1,10 @@
 .header-body{
+
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 10rem);
     margin-top: 6rem;
-    padding: 2rem 2rem;
+    padding: 2rem 6rem;
 }
 
 .grid-text{
@@ -62,13 +63,44 @@
 }
 .image-text{
     padding-left: 2em;
+    padding-top: 3rem;
 }
 .text-header{
     font-size: 4rem;
+    padding-right: 12rem;
+
+}
+.redline1{
+    width: 4rem;
+    height: 4px;
+    background-color: #dd1725;
 }
 .text-items{
     font-size: 1.5rem;
-    padding-right: 1rem;
+    cursor: pointer; 
+}
+.text-items:hover{
+    color: rgb(185, 178, 178);
+}
+.red-content{
+    padding-top: 4rem;
+}
+.contrast{
+   cursor: pointer;
+}
+.contrast:hover{
+    filter:contrast(130%);
+}
+.redline{
+    width:4px;
+    height:1.8rem;
+    background-color:#dd1725;
+}
+.red-content{
+    display: flex;
+    gap: 0.7rem;
+    align-items: center;
+
 }
 
 @media only screen and (max-width: 960px){
@@ -87,6 +119,12 @@ display: flex;
 align-items: center;
 justify-content: space-between;
    }
+   .red-content{
+padding-top: 0;
+   }
+   .redline1{
+    display: none;
+   }
    .image-red{
     grid-column: 1/4;
     grid-row: 2/3;
@@ -94,7 +132,7 @@ justify-content: space-between;
     width: 100%;
    }
    .text-header{
-    font-size: 1rem;
+    font-size: 2rem;
    }
    .text-items{
     font-size: 1rem;
