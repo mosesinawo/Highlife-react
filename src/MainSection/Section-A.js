@@ -3,7 +3,6 @@
 // import Col from 'react-bootstrap/Col';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
-import { useState } from "react";
 import Carousel from 'react-bootstrap/Carousel';
 import lifeBlood1 from "../img/lifeblood-1.png";
 import lifeBlood2 from "../img/lifeblood-2.png";
@@ -22,14 +21,7 @@ import { Link } from "react-router-dom";
 
 const Section1 = () => {
 
-     const [carosel, setCarosel] = useState(false);
-     const mobile = () =>{
-        if (window.innerWidth <= 580){
-            return setCarosel(true)
-        }else{
-         return  setCarosel
-        }
-     }
+   
 
     return (
 

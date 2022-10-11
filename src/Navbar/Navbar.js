@@ -4,7 +4,6 @@ import logo from "../img/logo.png";
 import user from "../img/SVG/user-solid-circle.svg";
 import cart from "../img/SVG/shopping-cart.svg";
 import magnifying from "../img/SVG/magnifying-glass.svg";
-import bars from '../img/bars.png';
 import "./Navbar.css";
 import { Link } from 'react-router-dom';
 import { useState } from "react";
@@ -36,13 +35,13 @@ const HeaderNavbar = () => {
                     <div className="user1">
                         <img className="user-items icons" src={user} alt="user" />
                         <img className="user-items icons" src={cart} alt="cart" />
-                        <button className="login">Sign Up/Login</button>
+                        <Link  className="login">Sign Up/Login</Link>
                     </div>
                 </ul>
                 <div className="user">
                     <img className="user-items icons " src={user} alt="user" />
                     <img className="user-items icons" src={cart} alt="cart" />
-                    <button className="login">Sign Up/Login</button>
+                    <Link  className="login">Sign Up/Login</Link>
                 </div>
             </div>
 

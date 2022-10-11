@@ -139,4 +139,15 @@ padding-top: 0;
     padding-right: 0.5rem;
 
    }
+   .text-header{
+    padding-right: 2rem;
+    line-height: ;
+}
+}
+
+@media only screen and (max-width: 580px){
+    .text-header{
+        padding-right: 2rem;
+        line-height: 30px;
+    }
 }
