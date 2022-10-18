@@ -13,10 +13,20 @@
     font-weight: 500;
     font-style: italic;
     margin:  0;
+    
 }
-h4{
+.events{
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.events-head{
 margin: 10px;
+font-size: 1.2rem;
+display: inline;
 }
+
 
 .side-head{
     font-family: 'Oswald', sans-serif;
@@ -24,6 +34,7 @@ margin: 10px;
     border-bottom: 3px solid black;
     display: inline;
     text-align: center;
+    margin: 0 auto;
     margin-bottom: 2rem;
 }
 

@@ -33,6 +33,7 @@ input{
     height: 3rem;
 }
 .footer-link{
+    
     padding: 3rem 1rem;
     display: flex;
     gap: 1.5rem;
@@ -42,20 +43,29 @@ color: #555;
 
 }
 .footer-items{
-    font-family: "Oswald-regular", sans-serif;
-    font-size: 1.5rem;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.7rem;
     list-style: none; 
     letter-spacing: -1px;
     color: #333;
     text-transform: uppercase;
     display: inline-block;
     cursor: pointer;
+    
+    
 }
 .footer-items:hover{
     color: black;
-    border-bottom: 4px solid black;
+    border-bottom: 3px solid black;
+    margin-top: 3px;
+    display: inline;
 }
-@media only screen and ( max-width: 960px){
+.copy{
+    font-weight: 500;
+    font-size: 1rem;
+    color:black;
+}
+@media only screen and ( max-width: 830px){
     .footer-link{
         flex-direction: column;
     }

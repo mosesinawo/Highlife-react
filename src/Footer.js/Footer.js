@@ -22,7 +22,7 @@ const Footer = () => {
           <li className='footer-items'>Privacy</li>
           <li className='footer-items'>Terms</li>
         </ul>
-        <p>&copy; 2022 High Life World. All Right Reserved</p>
+        <p className='copy'>&copy; 2022 High Life World. All Right Reserved</p>
       </div>
 
     </div>

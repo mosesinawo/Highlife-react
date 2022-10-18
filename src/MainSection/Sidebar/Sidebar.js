@@ -24,11 +24,11 @@ const Section2 = () => {
 
       <div className='events'>
         <h1 className='side-head'>Events</h1>
-        <h4>High Life Music Album Launch</h4>
+        <h4 className='events-head'>High Life Music Album Launch</h4>
         <p className='date'>12 march 2019</p>
-        <h4>World Blood Donor Day drive</h4>
+        <h4 className='events-head'>World Blood Donor Day drive</h4>
         <p className='date'>12 march 2019</p>
-        <h4>On Eagles Wings Prophetic Gathering</h4>
+        <h4 className='events-head'>On Eagles Wings Prophetic Gathering</h4>
         <p className='date'>12 march 2019</p>
       </div>
       <p>all Events</p>

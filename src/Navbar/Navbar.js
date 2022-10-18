@@ -22,7 +22,7 @@ const HeaderNavbar = () => {
                     <img src={logo} alt='logo' />
                 </div>
                 <div onClick={showLink} className="bars-container">
-                   <span style={{fontSize:'1.7rem', color:'#00a651'}}> Menu   </span> <i className={mobile ? "fas fa-times" : "fas fa-bars"} /> 
+                   <span style={{fontSize:'1.5rem', fontWeight:'600', color:'#00a651'}}> Menu   </span> <i className={mobile ? "fas fa-times" : "fas fa-bars"} /> 
                 </div>
 
                 <ul className={mobile ? "navbar-link active " : 'navbar-link'}>
@@ -35,13 +35,13 @@ const HeaderNavbar = () => {
                     <div className="user1">
                         <img className="user-items icons" src={user} alt="user" />
                         <img className="user-items icons" src={cart} alt="cart" />
-                        <Link  className="login">Sign Up/Login</Link>
+                        <Link  className="login">Sign Up / Login</Link>
                     </div>
                 </ul>
                 <div className="user">
                     <img className="user-items icons " src={user} alt="user" />
                     <img className="user-items icons" src={cart} alt="cart" />
-                    <Link  className="login">Sign Up/Login</Link>
+                    <Link  className="login">Sign Up / Login</Link>
                 </div>
             </div>
 

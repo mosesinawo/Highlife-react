@@ -21,7 +21,7 @@ const Header = () => {
       <div className='image-red contrast'>
         <img className='header-image ' src={image1} alt='img1' />
       </div>
-      <div className='image-text'>
+      <div className='image-text'style={{backgroundColor:'#f5f5f5'}}>
         <h1 className='text-header'>Life Blood</h1>
         <div className='redline1'>&nbsp;</div>
         <div>
