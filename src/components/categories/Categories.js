@@ -16,7 +16,7 @@ const Categories = () => {
         <div>
             <Carlton />
             <div>
-            <select className='select' style={{marginTop:'2rem',}}>
+            <select className='select' style={{margin:'2rem 4rem',}}>
               <option className='option'>Categories</option>
             </select>
             </div>

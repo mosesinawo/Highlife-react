@@ -55,7 +55,7 @@ p{
     display: flex;
     margin: 4rem 4rem;
     gap: 2rem;
-    align-items: center;
+    align-items: flex-start;
 }
 .categories-middle{
     display: grid;
@@ -89,7 +89,7 @@ p{
      left: 0;
     bottom: 0;
     background-color:#00a651 ;
-    padding: 0 2rem;
+    padding: 0 0.5rem;
     margin-right: 4rem;
 }
 .middle-1{
@@ -107,8 +107,11 @@ p{
         object-fit: cover;
     }
     .categories-middle{
-        grid-template-columns: 1fr;
+        grid-template-columns: 90vw;
         grid-template-rows: repeat(5, 1fr);
+    }
+    .middle-text{
+        padding: 0 0.5rem;
     }
     .middle-1{
         grid-row: 1/2;

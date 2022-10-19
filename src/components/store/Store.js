@@ -24,7 +24,7 @@ import Footer from '../../Footer.js/Footer';
 const Store = () => {
 
     return (
-        <Container style={{ marginTop: '4rem', }}>
+        <Container style={{ marginTop: '10rem', }}>
             <Row>
                 <Col style={{ position: 'relative' }} >
                     <img src={main} className='main' alt='main' />
@@ -37,12 +37,12 @@ const Store = () => {
                 </Col>
             </Row>
             <Row>
-                <Col className='filter-container'><h2 className='filter'>Filter+</h2></Col>
+                <Col className='filter-container'><h5 className='filter'>Filter+</h5></Col>
             </Row>
 
             <Row style={{ marginTop: '4rem',marginBottom:'6rem'}}>
                 <Col >
-                    <h5 style={{ color: '#10d869' }} className='main-items'>categories</h5>
+                    <h5 style={{ color: '10d869' }} className='main-items'>categories</h5>
                     <h5 className='main-items'>Hilife church</h5>
                     <h5 className='main-items'>Carlton Williams</h5>
                     <h5 className='main-items'>niara</h5>
@@ -68,9 +68,9 @@ const Store = () => {
                             <img src={main1} alt='main1' className='store-image' />
                         </div>
                         <div className='gallary-text'>
-                            <h4>View
-                                Fly away beautiful soul</h4>
-                            <figcaption className='price'>#5000</figcaption>
+                            <h5>View
+                                Fly away beautiful soul</h5>
+                            <figcaption className='price'>&#8358;5000</figcaption>
 
                         </div>
 
@@ -80,9 +80,9 @@ const Store = () => {
                             <img src={main2} alt='main2' className='store-image' />
                         </div>
                         <div className='gallary-text'>
-                            <h4>View
-                                Fly away beautiful soul</h4>
-                            <figcaption className='price'>#5000</figcaption>
+                            <h5>View
+                                Fly away beautiful soul</h5>
+                            <figcaption className='price'>&#8358;5000</figcaption>
 
                         </div>
 
@@ -92,9 +92,9 @@ const Store = () => {
                             <img src={main3} alt='main3' className='store-image'/>
                         </div>
                         <div className='gallary-text'>
-                            <h4>View
-                                Fly away beautiful soul</h4>
-                            <figcaption className='price'>#5000</figcaption>
+                            <h5>View
+                                Fly away beautiful soul</h5>
+                            <figcaption className='price'>&#8358;5000</figcaption>
 
                         </div>
 
@@ -104,9 +104,9 @@ const Store = () => {
                             <img src={main4} alt='main4'className='store-image' />
                         </div>
                         <div className='gallary-text'>
-                            <h4>View
-                                Fly away beautiful soul</h4>
-                            <figcaption className='price'>#5000</figcaption>
+                            <h5>View
+                                Fly away beautiful soul</h5>
+                            <figcaption className='price'>&#8358;5000</figcaption>
 
                         </div>
 
@@ -120,9 +120,9 @@ const Store = () => {
                             <img src={main5} alt='main5' className='store-image' />
                         </div>
                         <div className='gallary-text'>
-                            <h4>View
-                                Fly away beautiful soul</h4>
-                            <figcaption className='price'>#5000</figcaption>
+                            <h5>View
+                                Fly away beautiful soul</h5>
+                            <figcaption className='price'>&#8358;5000</figcaption>
 
                         </div>
 
@@ -132,9 +132,9 @@ const Store = () => {
                             <img src={main6} alt='main6' className='store-image' />
                         </div>
                         <div className='gallary-text'>
-                            <h4>View
-                                Fly away beautiful soul</h4>
-                            <figcaption className='price'>#5000</figcaption>
+                            <h5>View
+                                Fly away beautiful soul</h5>
+                            <figcaption className='price'>&#8358;5000</figcaption>
 
                         </div>
 
@@ -144,9 +144,9 @@ const Store = () => {
                             <img src={main7} alt='main7' className='store-image'/>
                         </div>
                         <div className='gallary-text'>
-                            <h4>View
-                                Fly away beautiful soul</h4>
-                            <figcaption className='price'>#5000</figcaption>
+                            <h5>View
+                                Fly away beautiful soul</h5>
+                            <figcaption className='price'>&#8358;5000</figcaption>
 
                         </div>
 
@@ -156,9 +156,9 @@ const Store = () => {
                             <img src={main8} alt='main8'className='store-image' />
                         </div>
                         <div className='gallary-text'>
-                            <h4>View
-                                Fly away beautiful soul</h4>
-                            <figcaption className='price'>#5000</figcaption>
+                            <h5>View
+                                Fly away beautiful soul</h5>
+                            <figcaption className='price'>&#8358;5000</figcaption>
 
                         </div>
 
@@ -172,9 +172,9 @@ const Store = () => {
                             <img src={main9} alt='main9' className='store-image' />
                         </div>
                         <div className='gallary-text'>
-                            <h4>View
-                                Fly away beautiful soul</h4>
-                            <figcaption className='price'>#5000</figcaption>
+                            <h5>View
+                                Fly away beautiful soul</h5>
+                            <figcaption className='price'>&#8358;5000</figcaption>
 
                         </div>
 
@@ -184,9 +184,9 @@ const Store = () => {
                             <img src={main10} alt='main10' className='store-image' />
                         </div>
                         <div className='gallary-text'>
-                            <h4>View
-                                Fly away beautiful soul</h4>
-                            <figcaption className='price'>#5000</figcaption>
+                            <h5>View
+                                Fly away beautiful soul</h5>
+                            <figcaption className='price'>&#8358;5000</figcaption>
 
                         </div>
 
@@ -196,9 +196,9 @@ const Store = () => {
                             <img src={main11} alt='main11' className='store-image'/>
                         </div>
                         <div className='gallary-text'>
-                            <h4>View
-                                Fly away beautiful soul</h4>
-                            <figcaption className='price'>#5000</figcaption>
+                            <h5>View
+                                Fly away beautiful soul</h5>
+                            <figcaption className='price'>&#8358;5000</figcaption>
 
                         </div>
 
@@ -208,9 +208,9 @@ const Store = () => {
                             <img src={main12} alt='main12'className='store-image' />
                         </div>
                         <div className='gallary-text'>
-                            <h4>View
-                                Fly away beautiful soul</h4>
-                            <figcaption className='price'>#5000</figcaption>
+                            <h5>View
+                                Fly away beautiful soul</h5>
+                            <figcaption className='price'>&#8358;5000</figcaption>
 
                         </div>
 

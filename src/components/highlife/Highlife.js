@@ -10,7 +10,8 @@ import Footer from '../../Footer.js/Footer';
 
 const Highlife = () => {
     return (
-        <Container style={{ marginTop: ' 9rem' }}>
+        <div>
+        <Container fluid style={{ marginTop: ' 9rem' }}>
             <Row className='highlife-black'>
                 
                 <Col md={8}>
@@ -22,9 +23,9 @@ const Highlife = () => {
                 <Col md={4}>
                     <div style={{textAlign:'start', padding:'2rem 2rem 0 0'}}>
 
-                        <h2 style={{color:' #10d869', }}>Life on the Sweet Side</h2>
+                        <h2 style={{color:' #10d869', }}>Life on the Sweet <br/> Side</h2>
                         <h6 style={{color: 'white'}}>Carlton Williams</h6>
-                        <p>Brody tries to protect his house as wildfires tear
+                        <p style={{paddingRight:'7rem', fontSize:'1.3rem'}}>Brody tries to protect his house as wildfires tear
                             through Malibu, and Justin is
                             caught in the middle when Audrina and Stephanie address rumors
                             during a trip to Las vegas.
@@ -34,7 +35,9 @@ const Highlife = () => {
             </Row>
 
 
-
+</Container>
+<Container>
+    
             <Row style={{marginTop:'10rem'}}>
                 <h1 className='highlife-header'>Other videos in this series:</h1>
                 <Col md={3}>
@@ -44,7 +47,7 @@ const Highlife = () => {
                         </div>
                         <div className='highlife-text'>
                             <h5 className=''>Life on the sweet side 1</h5>
-                            <figcaption className='highlife-price'>#5000</figcaption>
+                            <figcaption className='highlife-price'>&#8358;5000</figcaption>
                         </div>
                     </div>
                 </Col>
@@ -55,7 +58,7 @@ const Highlife = () => {
                         </div>
                         <div className='highlife-text'>
                             <h5 className=''>Life on the sweet side 1</h5>
-                            <figcaption className='highlife-price'>#5000</figcaption>
+                            <figcaption className='highlife-price'>&#8358;5000</figcaption>
                         </div>
                     </div>
                 </Col>
@@ -66,7 +69,7 @@ const Highlife = () => {
                         </div>
                         <div className='highlife-text'>
                             <h5 className=''>Life on the sweet side 1</h5>
-                            <figcaption className='highlife-price'>#5000</figcaption>
+                            <figcaption className='highlife-price'>&#8358;5000</figcaption>
                         </div>
                     </div>
                 </Col>
@@ -77,7 +80,7 @@ const Highlife = () => {
                         </div>
                         <div className='highlife-text'>
                             <h5 className=''>Life on the sweet side 1</h5>
-                            <figcaption className='highlife-price'>#5000</figcaption>
+                            <figcaption className='highlife-price'>&#8358;5000</figcaption>
                         </div>
                     </div>
                 </Col>
@@ -91,7 +94,7 @@ const Highlife = () => {
                         </div>
                         <div className='highlife-text'>
                             <h5 className=''>Life on the sweet side 1</h5>
-                            <figcaption className='highlife-price'>#5000</figcaption>
+                            <figcaption className='highlife-price'>&#8358;5000</figcaption>
                         </div>
                     </div>
                 </Col>
@@ -102,7 +105,7 @@ const Highlife = () => {
                         </div>
                         <div className='highlife-text'>
                             <h5 className=''>Life on the sweet side 1</h5>
-                            <figcaption className='highlife-price'>#5000</figcaption>
+                            <figcaption className='highlife-price'>&#8358;5000</figcaption>
                         </div>
                     </div>
                 </Col>
@@ -113,7 +116,7 @@ const Highlife = () => {
                         </div>
                         <div className='highlife-text'>
                             <h5 className=''>Life on the sweet side 1</h5>
-                            <figcaption className='highlife-price'>#5000</figcaption>
+                            <figcaption className='highlife-price'>&#8358;5000</figcaption>
                         </div>
                     </div>
                 </Col>
@@ -124,7 +127,7 @@ const Highlife = () => {
                         </div>
                         <div className='highlife-text'>
                             <h5 className=''>Life on the sweet side 1</h5>
-                            <figcaption className='highlife-price'>#5000</figcaption>
+                            <figcaption className='highlife-price'>&#8358;5000</figcaption>
                         </div>
                     </div>
                 </Col>
@@ -133,6 +136,7 @@ const Highlife = () => {
                 <Footer/>
             </Row>
         </Container>
+        </div>
     )
 }
 

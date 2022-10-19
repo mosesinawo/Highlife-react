@@ -33,12 +33,13 @@ padding: 0.3rem 2rem;
     transition: all .3s ease;
 }
 .filter-container{
+    padding: 1rem 0;
     border-bottom: 3px solid #eee;
 }
 .filter{
-font-size: 1.5rem;
-display: inline-block;
-padding-top: 0.5rem;
+font-size: 1.4rem;
+display: inline;
+cursor: pointer;
 }
 .filter:hover{
     border-bottom: 3px solid black;
@@ -63,7 +64,7 @@ padding-top: 0.5rem;
     gap: 1rem;
 }
 .gallary-image{
-    background-color: #eee;
+    background-color: #fafafa;
     min-height: 40vh;
     min-width: 15vw;
     display: flex;
