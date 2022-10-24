@@ -5,7 +5,7 @@ import Main from '../MainSection/Main'
 
 const Home = () => {
   return (
-    <div>
+    <div  style={{display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center'}}>
         <Header/>
       <Main/>
       <Footer/>

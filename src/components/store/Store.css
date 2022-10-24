@@ -1,9 +1,10 @@
-.main{
+.main {
     object-fit: cover;
     width: 100%;
-    height: 50vh;
+    height: 100%;
 }
-.main-text{
+
+.main-text {
     position: absolute;
     top: 2rem;
     left: 3rem;
@@ -11,80 +12,231 @@
     flex-direction: column;
     text-align: start;
 }
-.text-head{
-    font-family: "richie Brusher";
+
+.text-head {
+    font-family: 'Richie Brusher', sans-serif;
     color: #ff0088;
     font-size: 3rem;
 }
-.text-name{
+
+.text-name {
     font-size: 1.5rem;
     color: #10d869;
     font-weight: 700;
 }
-.shop-now{
-color: #fff;
-font-size: 2rem;
-text-transform: uppercase;
-background-color: #ff0088;
-padding: 0.3rem 2rem;
+
+.shop-now {
+    color: #fff;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    background-color: #ff0088;
+    padding: 0.3rem 1rem;
+    width:fit-content;
 }
-.shop-now:hover{
+
+.shop-now:hover {
     scale: 1.1;
     transition: all .3s ease;
 }
-.filter-container{
+
+.filter-container {
     padding: 1rem 0;
     border-bottom: 3px solid #eee;
+
 }
-.filter{
-font-size: 1.4rem;
-display: inline;
-cursor: pointer;
+
+.filter {
+    font-size: 1.4rem;
+    display: inline;
+    cursor: pointer;
 }
-.filter:hover{
+
+.filter:hover {
     border-bottom: 3px solid black;
 }
 
-.main-items{
+.main-items {
+    font-family: "Roboto", sans-serif ;
     cursor: pointer;
+    font-size: 15px;
+   
 
 }
-.main-items:hover{
+
+.main-items:hover {
     color: #10d869;
 }
-.gallary-container{
+.first-row{
+    
+}
+.store-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 1.5rem;
+    transition: all .3s;
+    margin-top: 2rem;
+   
+}
+.gallary-container {
+    position: relative;
     display: flex;
     flex-direction: column;
     text-align: start;
+    margin-bottom: 1rem;
+   
 }
-.store-gallary{
+
+.view{
+font-size: 20px;
+color:#fff;
+font-family: "Oswald-regular", sans-serif;
+background-color:  #00a651;
+position: absolute;
+top: 35%;
+left: 35%;
+padding: 2px 15px;
+text-align: center;
+opacity: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+text-decoration: none;
+cursor: pointer;
+}
+.view:hover{
+    color: white;
+}
+
+.store-gallary {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 1rem;
 }
-.gallary-image{
-    background-color: #fafafa;
-    min-height: 40vh;
-    min-width: 15vw;
+
+.gallary-image {
+    background-color: #eee;
+    height:30vh ;
+    width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;  
+    align-items: center;
+    transition: all .3s ease;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all .2s;
+}
+.gallary-image-2 {
+
+    background-color: #eee;
+    filter: opacity(50%);
+    height:30vh ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s ease;
+    overflow: hidden;
+    transition: all .2s; 
+    transition: all .2s ;
+    border: 2px solid #00a651;
+    transition: all .5s ease;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-right: 0;
+    width: 100%;
+   display: none;
+   transition: all .5s ease;
+}
+.gallary-container:hover .overlay{
+    display: block;
+    transition: all .5s ease;
+   
+}
+.gallary-container:hover .original{
+    display: none;
+    transition: all .5s ease;
+}
+
+    .original:hover{
+        visibility: hidden;
+        transition: all .3s ease;
+    }
+
+
+.store-image {
+    width: 50%;
+    height:70%;
     transition: all .3s ease;
 }
-.gallary-image:hover{
- border: 2px solid #10d869;
+.store-text{
+    font-size: 17px;
+    font-family: "Karla bold", sans-serif;
+    font-weight: 500;
 }
-.store-image{
-   max-width: 65%;
-   max-height: 65%;
-    transition: all .3s ease;
+
+
+.store-image:hover {
+
 }
-.store-image:hover{
-    scale: 1.2;
+.gallary-text {
+    margin-top: 1rem;
 }
-.price{
-    font-size: 1.5rem;
+
+
+.price {
+    font-family: "Oswald-regular", sans-serif;
+    font-size: 16px;
+    color: #00a651;
+    font-weight: 500;
+}
+.cart{
+    position: absolute;
+    bottom: 1px;
+    font-size: 23px;
     color: #10d869;
     font-weight: 600;
+   z-index: 200;
+}
+.store-list{
+    margin: 2rem 0 6rem;
+    background-color: rgba(238, 238, 238, 0.363);
+    padding: 2rem 0;
+}
+.fa-cart-shopping{
+    color: #10d869;
+    font-size: 28px;
+display: block;
+    height: 20px;
+    width: 20px ;
+}
+@media only screen and (max-width: 1000px){
+    .store-container{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: auto;
+        gap: 1rem;
+        transition: all .3s;
+    }
+    .text-head{
+        font-size: 1.5rem;
+    }
+    .shop-now{
+        font-size: 0.8rem;
+    }
+    .text-name{
+        font-size: 0.8rem;
+    }
+
+}
+@media only screen and (max-width: 580px){
+    .store-container{
+        /* grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        transition: all .3s; */
+    }
+
 }

@@ -4,9 +4,10 @@ import Section2 from './Sidebar/Sidebar.js';
 import './Main.css'
 const Main = () => {
   return (
-    <div className='body' style={{display: 'flex'}}>
-      <Section1 style={{flex:"3"}}/> 
-      <Section2 style={{flex:"1"}}/>
+    <div className='body' >
+      <Section1 /> 
+      <Section2 />
+      
 
     </div>
 

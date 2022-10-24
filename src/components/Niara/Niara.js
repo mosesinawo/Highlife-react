@@ -12,7 +12,7 @@ import './Niara.css';
 
 const Niara = () => {
     return (
-        <Container fluid style={{marginTop: '7rem'}}>
+        <Container fluid style={{marginTop: ''}}>
           <Row>
           <Carlton/>
           </Row>

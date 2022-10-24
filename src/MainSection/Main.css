@@ -3,37 +3,45 @@
     gap: 1rem;
     justify-content: center;
     align-items: center;
-    padding: 2rem 9rem
-};
+    padding: 2rem 9rem;
+}
+.left-part{
+     display: flex;
+    flex-direction: column; 
+    margin-top: -2rem;
+    
+}
    
 .upper-part{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 17rem);
+    grid-template-rows: 11rem;
     gap: 1rem;
+    margin: 2rem 0 5rem;
 }
 
 .life-image{
     width: 100%;
-    height: 30vh;
+    height: 100%;
     object-fit: cover;
    
 }
 
 .second-part{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3,11rem);
    
     column-gap: 1rem;
 }
 .lifeblood{
-    width: 20vw;
+    width: 100%;
     object-fit: cover;
 }
 
 .forth-image{
     object-fit: cover;
     width: 100%;
-    height: 30vh;
+    height: 100%;
 }
 
 
@@ -54,16 +62,23 @@
 }
 .fourth{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 17rem);
+    grid-template-rows: 11rem;
+    margin-bottom: 8rem;
 }
-.box-9{
-    cursor: pointer;
-    margin-top: 2rem;
-    background-color: #00a651;
-    padding: 0.3rem 2rem;
-    text-align: center;
-    display: inline-block;
-   transform: translateX(100%);
+
+.text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0.5rem 0;
+}
+.small-text{
+    font-family: 'Roboto', sans-serif;
+    margin: 1rem 0;
+    font-size: 15px;
+    color: black;
+    font-weight: 500;
 }
 .carousel{
     display: none;
@@ -72,13 +87,22 @@
     position: unset;
 }
 .last-text{
+    
     align-self: center;
     justify-self: center;
     text-align: center;
 }
 .inner-text{
+    font-family: 'Roboto', sans-serif;
 color: #fff;
+font-size: 15px;
 text-decoration: none;
+cursor: pointer;
+justify-self: flex-end;
+background-color: #039c4d;
+display: inline-block;
+padding: 0.5rem 1.5rem;
+margin-top:4rem;
 }
 .inner-text:hover{
     color: #fff;
@@ -91,28 +115,103 @@ text-decoration: none;
 @media only screen and (max-width:960px){
     .body{
         flex-direction: column;
-        padding: 2rem 5rem;
+        padding: 2rem 0rem;
     }
-    .lifeblood{
-        width: 30vw;
+    .upper-part{
+grid-template-columns: repeat(2, 38vw);
+margin-bottom: 6rem;
     }
+    .text{
+        font-size: 19px;
+    }
+    .fourth{
+        grid-template-columns: repeat(2, 38vw); 
+    }
+    .second-part{
+        grid-template-columns: repeat(3,25vw);
+    }
+   
     
 }
 @media only screen and (max-width: 580px){
+
+    .body{
+        flex-direction: column;
+        justify-content: center;
+       
+    }
+    .fa-chevron-circle-right, .fa-chevron-circle-left{
+        font-size: 30px;
+        color: #039c4d;
+    }
+    .carousel-container{
+        padding: 0 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     .left-part{
         display:none;
     }
     .carousel{
         display: block;
         overflow: hidden;
+        padding-bottom: 2rem;
     }
     .carousel-image{
         overflow: hidden;
-        width: 100%;
+        width: 85vw;
+        height: 16rem;
+        object-fit: cover;
+    }
+    .control{
+        position: absolute;
+        right: 10%;
+        bottom: 1%;
+    }
+    .carousel-indicators{
+display: none !important;
+    }
+    .text{
+        font-size: 0.9rem;
+    }
+    .next{
+        padding-left: 20px;
+        
+    }
+    .swipe{
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.1rem;
+      color: black;
+      font-weight: 500;
+      padding-bottom: 1rem;
+    }
+    .carousel-control-next{
+        color: #039c4d  !important;
+       
+        top: unset !important;
+     
+        z-index: 3000 !important;
+        right: 10% !important;
+        width: 8% !important;
+        bottom: 2rem !important;
+        opacity: 0 !important;
+    }
+    .carousel-control-prev{
+        opacity: 0 !important;
+        left: 70% !important;
+        bottom: 2rem;
+        
+        top: unset !important;
+        bottom: 2rem !important;
+        width: 8% !important;
+    }
+    .carousel-control-next-icon{
+        color: #039c4d  !important;
     }
     .carousel-caption{
         position: unset;
-    }
+    } 
     .text{
         color: black;
     }

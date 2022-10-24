@@ -10,132 +10,200 @@ import Footer from '../../Footer.js/Footer';
 
 const Highlife = () => {
     return (
-        <div>
-        <Container fluid style={{ marginTop: ' 9rem' }}>
-            <Row className='highlife-black'>
-                
-                <Col md={8}>
-                    <div>
+        <div className='highlife-body'>
+            <Container fluid style={{ margin: ' 9rem 0' }}>
+                <Row className='highlife-black'>
 
-                        <img src={niara1} alt='niara1' className='highlife-top' />
-                    </div>
-                </Col>
-                <Col md={4}>
-                    <div style={{textAlign:'start', padding:'2rem 2rem 0 0'}}>
+                    <Col md={8}>
+                        <div>
 
-                        <h2 style={{color:' #10d869', }}>Life on the Sweet <br/> Side</h2>
-                        <h6 style={{color: 'white'}}>Carlton Williams</h6>
-                        <p style={{paddingRight:'7rem', fontSize:'1.3rem'}}>Brody tries to protect his house as wildfires tear
-                            through Malibu, and Justin is
-                            caught in the middle when Audrina and Stephanie address rumors
-                            during a trip to Las vegas.
-                        </p>
-                    </div>
-                </Col>
-            </Row>
+                            <img src={niara1} alt='niara1' className='highlife-top' />
+                        </div>
+                    </Col>
+                    <Col md={4}>
+                        <div style={{ textAlign: 'start', padding: '2rem 2rem 0 0' }}>
+
+                            <h1 style={{ color: ' #10d869', }}>Life on the Sweet Side</h1>
+                            <h6 className='highlife-calton'>Carlton Williams</h6>
+                            <p className='highlife-top-text'>Brody tries to protect his house as wildfires tear
+                                through Malibu, and Justin is
+                                caught in the middle when Audrina and Stephanie address rumors
+                                during a trip to Las vegas.
+                            </p>
+                        </div>
+                    </Col>
+                </Row>
 
 
-</Container>
-<Container>
-    
-            <Row style={{marginTop:'10rem'}}>
-                <h1 className='highlife-header'>Other videos in this series:</h1>
-                <Col md={3}>
+            </Container>
+            
+            <h2 className='product-text'>Other videos in this series:</h2>
+            <div className='greenline'>&nbsp;</div>
+            <Container className='now-playing'>
+
+
+                <div className='now-playing-items'>
+                    <div className='highlife-original'>
+                        <div className='highlife-container'>
+                            <div className='highlife-image'>
+                                <img src={niara1} className='highlife-img' alt='' />
+                            </div>
+                            <div className='highlife-text'>
+                                <h5 className='now-playing-text'>Life on the sweet side </h5>
+                                <figcaption className='highlife-price'>Niara</figcaption>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='highlife-overlay'>
+                       
+                            <div className='highlife-image'>
+                                <img src={niara1} className='highlife-img-2' alt='' />
+                            </div>
+                            <h6 className='effect'>Now Playing</h6>
+                            <div className='highlife-text'>
+                                <h5 className='now-playing-text'>Life on the sweet side </h5>
+                                <figcaption className='highlife-price'>Niara</figcaption>
+                            </div>
+
+                        
+                    </div>
+                </div>
+                <div className='now-playing-items'>
+                    <div className='highlife-original'>
+                        <div className='highlife-container'>
+                            <div className='highlife-image'>
+                                <img src={niara1} className='highlife-img' alt='' />
+                            </div>
+                            <div className='highlife-text'>
+                                <h5 className='now-playing-text'>Life on the sweet side 2</h5>
+                                <figcaption className='highlife-price'>Niara</figcaption>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='highlife-overlay'>
+                       
+                            <div className='highlife-image'>
+                                <img src={niara1} className='highlife-img-2' alt='' />
+                            </div>
+                            <h6 className='effect'>Now Playing</h6>
+                            <div className='highlife-text'>
+                                <h5 className='now-playing-text'>Life on the sweet side 2</h5>
+                                <figcaption className='highlife-price'>Niara</figcaption>
+                            </div>
+
+                        
+                    </div>
+                </div>
+                <div className='now-playing-items'>
+                    <div className='highlife-original'>
+                        <div className='highlife-container'>
+                            <div className='highlife-image'>
+                                <img src={niara1} className='highlife-img' alt='' />
+                            </div>
+                            <div className='highlife-text'>
+                                <h5 className='now-playing-text'>Life on the sweet side 3</h5>
+                                <figcaption className='highlife-price'>Niara</figcaption>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='highlife-overlay'>
+                       
+                            <div className='highlife-image'>
+                                <img src={niara1} className='highlife-img-2' alt='' />
+                            </div>
+                            <h6 className='effect'>Now Playing</h6>
+                            <div className='highlife-text'>
+                                <h5 className='now-playing-text'>Life on the sweet side 3</h5>
+                                <figcaption className='highlife-price'>Niara</figcaption>
+                            </div>
+
+                        
+                    </div>
+                </div>
+                <div className='now-playing-items'>
+                    <div className='highlife-original'>
+                        <div className='highlife-container'>
+                            <div className='highlife-image'>
+                                <img src={niara1} className='highlife-img' alt='' />
+                            </div>
+                            <div className='highlife-text'>
+                                <h5 className='now-playing-text'>Life on the sweet side 4</h5>
+                                <figcaption className='highlife-price'>Niara</figcaption>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='highlife-overlay'>
+                       
+                            <div className='highlife-image'>
+                                <img src={niara1} className='highlife-img-2' alt='' />
+                            </div>
+                            <h6 className='effect'>Now Playing</h6>
+                            <div className='highlife-text'>
+                                <h5 className='now-playing-text'>Life on the sweet side 4</h5>
+                                <figcaption className='highlife-price'>Niara</figcaption>
+                            </div>
+
+                        
+                    </div>
+                </div>
+
+
+            </Container>
+
+            
+
+            <h2 className='product-text'> You will also like:</h2>
+            <div className='greenline' >&nbsp;</div>
+            <Container className='now-playing' style={{marginBottom:'13rem'}}>
+                <div className='now-playing-items'>
                     <div className='highlife-container'>
                         <div className='highlife-image'>
-                            <img src={niara1} className='highlife-img' alt=''/>
+                            <img src={niara1} className='highlife-img' alt='' />
                         </div>
                         <div className='highlife-text'>
-                            <h5 className=''>Life on the sweet side 1</h5>
+                            <h5 className='now-playing-text'>International blood donor day highlife</h5>
+                            <figcaption className='highlife-price'>Niara</figcaption>
+                        </div>
+                    </div>
+                </div>
+                <div className='now-playing-items'>
+                    <div className='highlife-container'>
+                        <div className='highlife-image'>
+                            <img src={tv1} className='highlife-img' alt='' />
+                        </div>
+                        <div className='highlife-text'>
+                            <h5 className='now-playing-text'>International blood donor day highlife</h5>
+                            <figcaption className='highlife-price'>Life blood</figcaption>
+                        </div>
+                    </div>
+                </div>
+                <div className='now-playing-items'>
+                    <div className='highlife-container'>
+                        <div className='highlife-image'>
+                            <img src={tv2} className='highlife-img' alt='' />
+                        </div>
+                        <div className='highlife-text'>
+                            <h5 className='now-playing-text'>Getting more intimate with the Holy Spirit</h5>
+                            <figcaption className='highlife-price'>Courses</figcaption>
+                        </div>
+                    </div>
+                </div>
+                <div className='now-playing-items'>
+                    <div className='highlife-container'>
+                        <div className='highlife-image'>
+                            <img src={tv3} className='highlife-img' alt='' />
+                        </div>
+                        <div className='highlife-text'>
+                            <h5 className='now-playing-text'>Original guide to setting up eco-friendly offices</h5>
                             <figcaption className='highlife-price'>&#8358;5000</figcaption>
                         </div>
                     </div>
-                </Col>
-                <Col md={3}>
-                    <div className='highlife-container'>
-                        <div className='highlife-image'>
-                            <img src={niara1} className='highlife-img' alt=''/>
-                        </div>
-                        <div className='highlife-text'>
-                            <h5 className=''>Life on the sweet side 1</h5>
-                            <figcaption className='highlife-price'>&#8358;5000</figcaption>
-                        </div>
-                    </div>
-                </Col>
-                <Col md={3}>
-                    <div className='highlife-container'>
-                        <div className='highlife-image'>
-                            <img src={niara1} className='highlife-img' alt=''/>
-                        </div>
-                        <div className='highlife-text'>
-                            <h5 className=''>Life on the sweet side 1</h5>
-                            <figcaption className='highlife-price'>&#8358;5000</figcaption>
-                        </div>
-                    </div>
-                </Col>
-                <Col md={3}>
-                    <div className='highlife-container'>
-                        <div className='highlife-image'>
-                            <img src={niara1} className='highlife-img' alt=''/>
-                        </div>
-                        <div className='highlife-text'>
-                            <h5 className=''>Life on the sweet side 1</h5>
-                            <figcaption className='highlife-price'>&#8358;5000</figcaption>
-                        </div>
-                    </div>
-                </Col>
-            </Row>
-            <Row style={{marginTop:'10rem', marginBottom:'10rem'}}>
-                <h1 className='highlife-header'>You will also like:</h1>
-                <Col md={3}>
-                    <div className='highlife-container'>
-                        <div className='highlife-image'>
-                            <img src={niara1} className='highlife-img' alt=''/>
-                        </div>
-                        <div className='highlife-text'>
-                            <h5 className=''>Life on the sweet side 1</h5>
-                            <figcaption className='highlife-price'>&#8358;5000</figcaption>
-                        </div>
-                    </div>
-                </Col>
-                <Col md={3}>
-                    <div className='highlife-container'>
-                        <div className='highlife-image'>
-                            <img src={tv1} className='highlife-img' alt=''/>
-                        </div>
-                        <div className='highlife-text'>
-                            <h5 className=''>Life on the sweet side 1</h5>
-                            <figcaption className='highlife-price'>&#8358;5000</figcaption>
-                        </div>
-                    </div>
-                </Col>
-                <Col md={3}>
-                    <div className='highlife-container'>
-                        <div className='highlife-image'>
-                            <img src={tv2} className='highlife-img' alt=''/>
-                        </div>
-                        <div className='highlife-text'>
-                            <h5 className=''>Life on the sweet side 1</h5>
-                            <figcaption className='highlife-price'>&#8358;5000</figcaption>
-                        </div>
-                    </div>
-                </Col>
-                <Col md={3}>
-                    <div className='highlife-container'>
-                        <div className='highlife-image'>
-                            <img src={tv3} className='highlife-img' alt=''/>
-                        </div>
-                        <div className='highlife-text'>
-                            <h5 className=''>Life on the sweet side 1</h5>
-                            <figcaption className='highlife-price'>&#8358;5000</figcaption>
-                        </div>
-                    </div>
-                </Col>
-            </Row>
+                </div>
+            </Container>
+
             <Row>
-                <Footer/>
+                <Footer />
             </Row>
-        </Container>
         </div>
     )
 }

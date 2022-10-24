@@ -6,6 +6,7 @@ import Categories from './components/categories/Categories';
 import Store from './components/store/Store';
 import Highlife from './components/highlife/Highlife';
 import Niara from './components/Niara/Niara';
+import Product from './components/product/Product';
 
 
 function App() {
@@ -28,6 +29,9 @@ function App() {
         </Route>
         <Route path='/niara'>
       <Niara/>
+        </Route>
+        <Route path='/product'>
+      <Product/>
         </Route>
 
       </Switch>

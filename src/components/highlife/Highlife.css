@@ -1,36 +1,149 @@
-.highlife-black{
+.highlife-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.highlife-black {
     background-color: black;
-   
-
-}
-.highlife-top{
-height: 30rem;
-width: 100%;
-padding: 1rem 0 1rem 1rem;
-object-fit: cover;
-text-align: center;
-
-}
-.highlife-container{
     
+
+
 }
-.highlife-img{
-    width: 100%; 
+
+.highlife-top {
+    height: 90vh;
+    width: 100%;
+    padding: 4rem 1rem 4rem 4rem;
     object-fit: cover;
-       height: 15rem;
-       padding: 1rem;
-       
+    text-align: center;
+
 }
-.highlife-text{
-text-align: start;
+.highlife-calton{
+    color: #fff;
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 400;
 }
-.highlife-price{
+.highlife-top-text{
+    font-family: "Oswald-regular", sans-serif;
+    color: #fff;
+    font-size: 27px;
+    
+    padding-top: 1rem;
+}
+
+.now-playing {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+    margin: 2rem 0 4rem;
+
+
+}
+
+.now-playing-items {
+    position: relative;
+}
+
+.highlife-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: none;
+}
+
+.highlife-img {
+    width: 100%;
+    object-fit: cover;
+    height: 23vh;
+}
+
+.now-playing-items:hover .highlife-overlay {
+    display: block;
+}
+
+.now-playing-items:hover .highlife-original {
+    display: none;
+}
+
+.effect {
+    font-family: "Oswald-regular", sans-serif;
+    font-size: 20px;
+    color: #fff;
+    background-color: #00a651;
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    padding: 5px 20px;
+    text-align: center;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.now-playing-text{
+    font-family: "Karla bold", sans-serif;
+    font-weight: 600;
+}
+
+.highlife-img-2 {
+    width: 100%;
+    object-fit: cover;
+    height: 23vh;
+    background-color:#00a651;
+    filter: opacity(50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s ease;
+    overflow: hidden;
+    transition: all .2s;
+    transition: all .2s;
+    border: 2px solid #00a651;
+    transition: all .5s ease;
+
+}
+
+.highlife-text {
+    text-align: start;
+}
+
+.highlife-price {
     color: #10d869;
     font-size: 1.2rem;
     font-weight: 600;
 }
+
 @media only screen and (max-width: 767.50px) {
-    .highlife-top{
+    .highlife-top {
+        height: 60vh;
         padding: 0;
     }
+}
+
+@media only screen and (max-width: 1000px) {
+    .highlife-black{
+       
+    }
+    .now-playing {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        transition: all .3s;
+    }
+    .effect{
+        
+        left: 90px;
+       }
+
+}
+
+@media only screen and (max-width: 580px) {
+   .effect{
+    font-size: 15px;
+    left: 30px;
+   }
+
 }

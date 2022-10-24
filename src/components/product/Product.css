@@ -1,0 +1,132 @@
+.product-text-container {
+    margin-bottom: 6rem;
+}
+
+.product-text-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: start;
+}
+
+.product-img-body {
+    text-align: end;
+}
+
+.product-image {
+    height: 20rem;
+    object-fit: cover;
+}
+
+.product-header {
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.product-price {
+    font-family: "Oswald-regular", sans-serif;
+    font-size: 30px;
+    color: #00a651;
+    font-weight: 100;
+}
+
+.product-paragraph {
+    font-family: "Karla bold", sans-serif;
+    font-size: 15px;
+    width: 80%;
+    border-bottom: 2px solid rgba(216, 211, 211, 0.377);
+}
+.product-quantity{
+    font-size: 20px;
+    color: #0000008e;
+    
+}
+.product-input {
+    width: 4rem;
+    height: 2rem;
+    border: 2px solid #00000033;
+    padding-left: 10px;
+}
+.cart-item{
+    display: flex;
+    gap: 10px;
+}
+
+.cart-box {
+    display: flex;
+gap: 3rem;
+   justify-content: space-between;
+}
+
+.add-cart {
+    font-family: "Oswald-regular", sans-serif;
+    align-self: center;
+    display: inline-block;
+    background-color: #00a651;
+    /* border-radius: 10rem; */
+    border: 1px solid #00a651;
+    padding: 0.2rem 1rem;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all .2s;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+    text-transform: uppercase;
+}
+
+.add-cart:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 10px #00000033;
+    background-color: #fff;
+    color: #00a651;
+}
+
+.product-icon {
+    display: flex;
+    text-align: end;
+    justify-content: flex-end;
+    gap: 1rem;
+
+}
+
+.product-icon-item {
+    height: 25px;
+}
+.product-text{
+    color: black;
+
+}
+.greenline{
+   
+    width: 14rem;
+    height: 4px;
+    background-color: #00a651;
+    margin-bottom:1rem ;
+    z-index: 1000;
+    
+    margin: 0 auto;
+}
+@media only screen and (max-width:766.67px){
+    .product-img-body{
+        text-align: start;
+    }
+    .product-paragraph{
+width: 100%;
+    }
+    .product-header{
+        padding-top: 1rem;
+    }
+
+}
+@media only screen and (max-width:580px){
+.cart-box{
+    flex-direction: column;
+}
+.product-icon{
+    justify-content: unset;
+}
+}

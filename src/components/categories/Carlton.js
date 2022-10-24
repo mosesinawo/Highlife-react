@@ -4,15 +4,16 @@ import { Col, Container, Row } from 'react-bootstrap';
 
 const Carlton = () => {
   return (
-    <Container fluid style={{marginTop: '5rem'}}>
+    <Container fluid style={{marginTop: '8rem'}}>
             <Row className='carlton'>
 
                 <Col md={8} className='carlton-container1'>
                     {/* <img src={niara1} alt='niara1' className='carlton-image1' /> */}
                     <div className='carlton-text'>
                         <p className='carlton-williams'>
+                        <i class="fa fa-play-circle-o" aria-hidden="true"></i>
                             Life on the Sweet side /
-                            <span> Carlton Williams</span>
+                            <span className='span-1'> Carlton Williams</span>
                         </p>
 
                     </div>
@@ -25,9 +26,10 @@ const Carlton = () => {
                         {/* <img src={niara2} alt='niara2' className='carlton-image2' /> */}
                         <div className='carlton-text'>
 
-                            <p className='carlton-williams'>
+                            <p className='carlton-williams-2'>
+                            <i class="fa fa-play-circle-o" aria-hidden="true"></i>
                                 Life on the Sweet side /
-                                <span> Carlton Williams</span>
+                                <span className='span-2'> Carlton Williams</span>
                             </p>
                         </div>
                     </div>
@@ -36,9 +38,10 @@ const Carlton = () => {
 
                         {/* <img src={niara3} alt='niara3' className='carlton-image2' /> */}
                         <div className='carlton-text'>
-                            <p className='carlton-williams'>
+                            <p className='carlton-williams-2'>
+                            <i class="fa fa-play-circle-o" aria-hidden="true"></i>
                                 Life on the Sweet side /
-                                <span> Carlton Williams</span>
+                                <span className='span-2'> Carlton Williams</span>
                             </p>
 
                         </div>

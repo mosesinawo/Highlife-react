@@ -16,31 +16,33 @@ const Section2 = () => {
         <h1 className='side-head'>Our World</h1>
 
         <img src={niara8} alt={niara8} className="side-image" />
-        <h2>Nigeria is the Lord's</h2>
+        <h4>Nigeria is the Lord's</h4>
         <p className='date'>High Life Music</p>
-        <img src={radio} alt="radio" className="side-image" />
+        <img src={radio} alt="radio" style={{width:'70%', color:'#eee'}} />
 
       </div>
 
       <div className='events'>
         <h1 className='side-head'>Events</h1>
-        <h4 className='events-head'>High Life Music Album Launch</h4>
+        <h6 className='events-head'>High Life Music Album Launch</h6>
         <p className='date'>12 march 2019</p>
-        <h4 className='events-head'>World Blood Donor Day drive</h4>
+        <h6 className='events-head'>World Blood Donor Day drive</h6>
         <p className='date'>12 march 2019</p>
-        <h4 className='events-head'>On Eagles Wings Prophetic Gathering</h4>
+        <h6 className='events-head'>On Eagles Wings Prophetic Gathering</h6>
         <p className='date'>12 march 2019</p>
+        <p className='foward'>all events <i class="fa fa-share" aria-hidden="true"></i></p>
       </div>
-      <p>all Events</p>
-      <div className='store'>
-        <div>
-          <img src={niara10} alt='niara10' className="side-image" />
-          <h4>New series from carlton Williams</h4>
-        </div>
-        <div>
-          <img src={niara11} alt='niara11' className="side-image" />
-          <h4>New series from carlton Williams</h4>
-        </div>
+      
+      <div className='side-store'>
+        <h2 className='store-header'>Store</h2>
+        
+          <img src={niara10} alt='niara10' className="side-image-2" />
+          <h6>New series from carlton Williams</h6>
+        
+        
+          <img src={niara11} alt='niara11' className="side-image-2" />
+          <h6>Official High Life World Merch Stone</h6>
+        
 
       </div>
     </div>
