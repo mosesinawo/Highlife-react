@@ -15,7 +15,7 @@ import { Link } from 'react-router-dom';
 const Product = () => {
     return (
         <div>
-            <Container>
+            <Container style={{marginTop:'9rem'}}>
                 <Row className='product-text-container'>
                     <Col md={4} className='product-img-body'>
                         <img src={cart} alt='cart' className='product-image' />

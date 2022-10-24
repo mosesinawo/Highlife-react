@@ -32,16 +32,18 @@ const HeaderNavbar = () => {
                     <li onClick={hideLink} className="nav-li"> <Link to='/store' className="navbar-items">Store</Link></li>
                     <li onClick={hideLink} className="nav-li"> <Link to='/highlifetv' className="navbar-items">HighLife Tv</Link></li>
                     <li onClick={hideLink} className="nav-li"> <Link to='/niara' className="navbar-items"> Naira</Link></li>
-                    <li  className="nav-li"><img  className=" icons" src={magnifying} alt='magnify'/></li>
+                    <li onClick={hideLink} className=""> <Link className="navbar-items"> 
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                    </Link></li>
                     <div className="user1">
-                        <img className="user-items icons" src={user} alt="user" />
-                        <img className="user-items icons" src={cart} alt="cart" />
+                    <i class="fa fa-user-circle user-items icons" aria-hidden="true"></i>
+                        <i class="fa fa-shopping-cart user-items icons" aria-hidden="true"></i> 
                         <Link  className="login">Sign Up / Login</Link>
                     </div>
                 </ul>
                 <div className="user">
-                    <img className="user-items icons " src={user} alt="user" />
-                    <img className="user-items icons" src={cart} alt="cart" />
+                <i class="fa fa-user-circle user-items icons" aria-hidden="true"></i>
+                    <i class="fa fa-shopping-cart user-items icons" aria-hidden="true"></i> 
                     <Link  className="login">Sign Up / Login</Link>
                 </div>
             </div>

@@ -84,11 +84,21 @@ font-size: 1rem;
         text-align: center;
         justify-content: center;
     }
+    .side-store{
+        height: fit-content;
+    }
     .sidebar{
         grid-template-columns: 78vw;
         text-align: center;
+       
     }
+
     .side-image-2{
         height: 25%;
+    }
+}
+@media only screen and (max-width: 580px){
+    .side-store{
+        height: fit-content;
     }
 }

@@ -30,7 +30,7 @@ const Categories = () => {
 
                         <div >
                             <p className='middle-text'>
-                                <i class="fa fa-play-circle-o" aria-hidden="true"></i>
+                            <i class="fa fa-play-circle" aria-hidden="true"></i>
                                 Life on the Sweet side /
                                 <span className='span-3'> Carlton Williams</span>
                             </p>
@@ -42,7 +42,7 @@ const Categories = () => {
 
                         <div >
                             <p className='middle-text'>
-                                <i class="fa fa-play-circle-o" aria-hidden="true"></i>
+                            <i class="fa fa-play-circle" aria-hidden="true"></i>
                                 Life on the Sweet side /
                                 <span className='span-3'> Carlton Williams</span>
                             </p>
@@ -55,7 +55,7 @@ const Categories = () => {
 
                         <div >
                             <p className='middle-text-2'>
-                                <i class="fa fa-play-circle-o" aria-hidden="true"></i>
+                            <i class="fa fa-play-circle" aria-hidden="true"></i>
                                 Life on the Sweet side /
                                 <span className='span-4' > Carlton Williams</span>
                             </p>
@@ -69,7 +69,7 @@ const Categories = () => {
 
                         <div >
                             <p className='middle-text'>
-                                <i class="fa fa-play-circle-o" aria-hidden="true"></i>
+                            <i class="fa fa-play-circle" aria-hidden="true"></i>
                                 Life on the Sweet side /
                                 <span className='span-3'> Carlton Williams</span>
                             </p>
@@ -81,7 +81,7 @@ const Categories = () => {
 
                         <div >
                             <p className='middle-text'>
-                                <i class="fa fa-play-circle-o" aria-hidden="true"></i>
+                            <i class="fa fa-play-circle" aria-hidden="true"></i>
                                 Life on the Sweet side /
                                 <span className='span-3'> Carlton Williams</span>
                             </p>

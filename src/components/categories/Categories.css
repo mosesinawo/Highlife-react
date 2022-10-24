@@ -1,5 +1,15 @@
 .select{
     margin: 4rem;
+    font-size: 20px;
+    color: black;
+     font-family: "Roboto", sans-serif;
+     font-weight: 500;
+}
+.option{
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    background-color: #eee;
+
 }
 .categories-text{
     position: absolute;
@@ -125,6 +135,10 @@
         width: 100%;
         object-fit: cover;
     }
+    .middle-text-2{
+        font-size:17px ;
+    }
+    
     .categories-middle{
         grid-template-columns: 90vw;
         grid-template-rows: repeat(5, 40vw);

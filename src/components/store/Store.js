@@ -5,7 +5,6 @@ import Col from 'react-bootstrap/Col';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Store.css';
-import main from './img/main-img.png';
 import main1 from './img/main-1.png';
 import main2 from './img/main-2.png';
 import main3 from './img/main-3.png';
@@ -27,14 +26,14 @@ const Store = () => {
     return (
         <Container style={{ marginTop: '10rem', padding: ' 0 1rem' }}>
             <Row>
-                <Col style={{ position: 'relative' }} >
-                    <img src={main} className='main' alt='main' />
+                <Col className='main' >
+                   
 
-                    <blockquote className='main-text'>
+                    <div className='main-text'>
                         <h1 className='text-head'>Limitless Joy <br />Bundles</h1>
                         <p className='text-name'>by Carlton Williams</p>
                         <figcaption className='shop-now'>shop now</figcaption>
-                    </blockquote>
+                    </div>
                 </Col>
             </Row>
             <Row>
@@ -319,7 +318,7 @@ const Store = () => {
                             <img src={main10} alt='main10' className='store-image' />
                         </div>
                         <div className='gallary-text'>
-                            <Link className='store-text'>Mighty to save all who call</Link>
+                            <h6 className='store-text'>Mighty to save all who call</h6>
                             <figcaption className='price'>&#8358;1000</figcaption>
 
                         </div>

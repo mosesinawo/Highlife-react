@@ -107,6 +107,21 @@ margin-top:4rem;
 .inner-text:hover{
     color: #fff;
 }
+.inner-text-2{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    justify-self: flex-end;
+    background-color: #039c4d;
+    display: none;
+    padding: 0.5rem 1.5rem;
+    margin-top:2rem;
+}
+.inner-text-2:hover{
+    color: #fff;
+}
 @media only screen and (max-width:1300px){
     .body{
         padding: 2rem 3rem;
@@ -139,6 +154,9 @@ margin-bottom: 6rem;
         flex-direction: column;
         justify-content: center;
        
+    }
+    .inner-text-2{
+        display: block;
     }
     .fa-chevron-circle-right, .fa-chevron-circle-left{
         font-size: 30px;
@@ -185,6 +203,7 @@ display: none !important;
       color: black;
       font-weight: 500;
       padding-bottom: 1rem;
+      padding-left: 2rem;
     }
     .carousel-control-next{
         color: #039c4d  !important;
