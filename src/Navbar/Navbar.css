@@ -4,7 +4,7 @@
     top: 0;
     right: 0;
     left: 0;
-    padding: 0 5rem;
+    padding: 0 1rem;
     background-color: #fff;
     z-index: 10000;
     transition: all .5s;
@@ -53,6 +53,7 @@
 }
 
 .navbar-items {
+    font-size: 13px;
     list-style: none;
     text-decoration: none;
     height: 100%;
@@ -162,8 +163,8 @@ border-radius: 10px;
 }
 .icons{
     border-bottom: none;
-    width: 2rem;
-    height: 2rem;
+    width: 1.5rem;
+    height: 1.5rem;
     align-self: center;
     color: rgb(47, 47, 109);
 }
@@ -179,7 +180,7 @@ border-radius: 10px;
 }
 @media only screen and (max-width: 960px) {
     .header-nav{
-        padding: 0;
+        padding:0 1rem;
     }
     .bars-container{
         display: 

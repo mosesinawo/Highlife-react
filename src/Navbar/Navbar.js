@@ -26,12 +26,13 @@ const HeaderNavbar = () => {
                 </div>
 
                 <ul className={mobile ? "navbar-link active " : 'navbar-link'}>
-                    <li onClick={hideLink} className="nav-li"> <Link to='/' style={{borderBottom:"3px, solid black",}} className="navbar-items">Life Blood</Link></li>
+                    <li onClick={hideLink} className="nav-li"> <Link className="navbar-items"> High Life Church</Link></li>
+                    <li onClick={hideLink} className="nav-li"> <Link to='/' className="navbar-items">Life Blood</Link></li>
                     <li onClick={hideLink} className="nav-li"> <Link to='/categories' className="navbar-items"> Carlton Williams</Link></li>
                     <li onClick={hideLink} className="nav-li"> <Link to='/store' className="navbar-items">Store</Link></li>
                     <li onClick={hideLink} className="nav-li"> <Link to='/highlifetv' className="navbar-items">HighLife Tv</Link></li>
                     <li onClick={hideLink} className="nav-li"> <Link to='/niara' className="navbar-items"> Naira</Link></li>
-                    <li  className="nav-li"><img className=" icons" src={magnifying} alt='magnify'/></li>
+                    <li  className="nav-li"><img  className=" icons" src={magnifying} alt='magnify'/></li>
                     <div className="user1">
                         <img className="user-items icons" src={user} alt="user" />
                         <img className="user-items icons" src={cart} alt="cart" />

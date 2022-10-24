@@ -88,7 +88,7 @@
 }
 .text-items{
     font-family: 'roboto', sans-serif;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: 400;
     cursor: pointer; 
     color: black;
@@ -132,7 +132,7 @@
 @media only screen and (max-width: 960px){
     .header-body{
         grid-template-rows:70px 400px 150px;
-        grid-template-columns: repeat(3, 26vw);
+        grid-template-columns: repeat(3, 32vw);
         padding: 2rem 0;
     }
     .header-tag{
