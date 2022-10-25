@@ -34,7 +34,9 @@ const Product = () => {
                         <div className='cart-box'>
                             <div className='cart-item'>
                                 <label className='product-quantity'>Quantity</label>
-                                <input type='number' placeholder='2' className='product-input' />
+                                <input type='number' placeholder='2' className=
+                                
+                                'product-input' />
                             <Link className='add-cart'>Add to cart</Link>
                             </div>
 
@@ -67,9 +69,9 @@ const Product = () => {
                             <div className='overlay'>
 
                                 <div className='gallary-image-2'>
-                                    <img src={main9} alt='main9' className='store-image' />
+                                    <img src={main9} alt='main9' className='overlay-image' />
+                                <Link className='view'>View</Link>
                                 </div>
-                                <h6 className='view'>View</h6>
                                 <div className='gallary-text'>
                                     <h6 className='store-text'>Don't stop: a spiritual guide to never ever quitting</h6>
                                     <figcaption className='price'>Add to cart</figcaption>
@@ -93,9 +95,9 @@ const Product = () => {
                             <div className='overlay'>
 
                                 <div className='gallary-image-2'>
-                                    <img src={main10} alt='main10' className='store-image' />
+                                    <img src={main10} alt='main10' className='overlay-image' />
+                                <Link className='view'>View</Link>
                                 </div>
-                                <h6 className='view'>View</h6>
                                 <div className='gallary-text'>
                                     <h6 className='store-text'>Mighty to save all who call</h6>
                                     <figcaption className='price'>Add to cart</figcaption>
@@ -119,9 +121,9 @@ const Product = () => {
                             <div className='overlay'>
 
                                 <div className='gallary-image-2'>
-                                    <img src={main11} alt='main11' className='store-image' />
+                                    <img src={main11} alt='main11' className='overlay-image' />
+                                <Link className='view'>View</Link>
                                 </div>
-                                <h6 className='view'>View</h6>
                                 <div className='gallary-text'>
                                     <h6 className='store-text'>Faith is Trust (Tees)</h6>
                                     <figcaption className='price'>Add to cart</figcaption>
@@ -146,9 +148,9 @@ const Product = () => {
                             <div className='overlay'>
 
                                 <div className='gallary-image-2'>
-                                    <img src={main12} alt='main12' className='store-image' />
+                                    <img src={main12} alt='main12' className='overlay-image' />
+                                <Link className='view'>View</Link>
                                 </div>
-                                <h6 className='view'>View</h6>
                                 <div className='gallary-text'>
                                     <h6 className='store-text'>Take bake what's mine</h6>
                                     <figcaption className='price'>Add to cart</figcaption>

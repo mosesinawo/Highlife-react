@@ -13,7 +13,8 @@ const Main = () => {
       <Section1 /> 
       <Section2 />
 
-      
+      <div className='carousel-container'>
+
       <Carousel className='carousel'>
           <Carousel.Item style={{ overflow: 'hidden',  width: '100%' }}>
             <img
@@ -57,6 +58,7 @@ const Main = () => {
             
           </Carousel.Item>
         </Carousel>
+      </div>
         <div className="box-9">
           <p className="last-text"> <Link className="inner-text-2" >LiveBlood Archives</Link></p>
         </div>

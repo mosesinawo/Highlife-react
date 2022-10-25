@@ -7,6 +7,7 @@ import tv1 from './img/tv-1.png';
 import tv2 from './img/tv-2.png';
 import tv3 from './img/tv-3.png';
 import Footer from '../../Footer.js/Footer';
+import { Link } from 'react-router-dom';
 
 const Highlife = () => {
     return (
@@ -58,8 +59,8 @@ const Highlife = () => {
                        
                             <div className='highlife-image'>
                                 <img src={niara1} className='highlife-img-2' alt='' />
+                                <Link className='effect'> Now playing</Link>
                             </div>
-                            <h6 className='effect'>Now Playing</h6>
                             <div className='highlife-text'>
                                 <h5 className='now-playing-text'>Life on the sweet side </h5>
                                 <figcaption className='highlife-price'>Niara</figcaption>
@@ -84,8 +85,8 @@ const Highlife = () => {
                        
                             <div className='highlife-image'>
                                 <img src={niara1} className='highlife-img-2' alt='' />
+                                <Link className='effect'> Now playing</Link>
                             </div>
-                            <h6 className='effect'>Now Playing</h6>
                             <div className='highlife-text'>
                                 <h5 className='now-playing-text'>Life on the sweet side 2</h5>
                                 <figcaption className='highlife-price'>Niara</figcaption>
@@ -110,8 +111,8 @@ const Highlife = () => {
                        
                             <div className='highlife-image'>
                                 <img src={niara1} className='highlife-img-2' alt='' />
+                                <Link className='effect'> Now playing</Link>
                             </div>
-                            <h6 className='effect'>Now Playing</h6>
                             <div className='highlife-text'>
                                 <h5 className='now-playing-text'>Life on the sweet side 3</h5>
                                 <figcaption className='highlife-price'>Niara</figcaption>
@@ -136,8 +137,8 @@ const Highlife = () => {
                        
                             <div className='highlife-image'>
                                 <img src={niara1} className='highlife-img-2' alt='' />
+                            <Link className='effect'> Now playing</Link>
                             </div>
-                            <h6 className='effect'>Now Playing</h6>
                             <div className='highlife-text'>
                                 <h5 className='now-playing-text'>Life on the sweet side 4</h5>
                                 <figcaption className='highlife-price'>Niara</figcaption>

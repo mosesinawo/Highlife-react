@@ -32,6 +32,12 @@
     
     padding-top: 1rem;
 }
+.highlife-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 .now-playing {
     display: grid;
@@ -74,8 +80,7 @@
     color: #fff;
     background-color: #00a651;
     position: absolute;
-    top: 30%;
-    left: 20%;
+   text-decoration: none;
     padding: 5px 20px;
     text-align: center;
     opacity: 1;
@@ -83,6 +88,9 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
+}
+.effect:hover{
+    color: #fff;
 }
 .now-playing-text{
     font-family: "Karla bold", sans-serif;
@@ -119,7 +127,7 @@
 @media only screen and (max-width: 991px){
 .effect{
     font-size: 13px;
-    left: 15%;
+  
 }
 .now-playing-text{
     font-size: 14px;
@@ -147,7 +155,7 @@
     }
     .effect{
         font-size: 15px;
-        left: 25%;
+       
         
        }
 
@@ -156,7 +164,7 @@
 @media only screen and (max-width: 580px) {
    .effect{
     font-size: 15px;
-    left: 30px;
+    
    }
 
 }

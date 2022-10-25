@@ -96,9 +96,9 @@ color:#fff;
 font-family: "Oswald-regular", sans-serif;
 background-color:  #00a651;
 position: absolute;
-top: 28%;
-left: 32%;
-padding: 2px 15px;
+/* top: 28%;
+left: 32%;*/
+padding: 1px 18px; 
 text-align: center;
 opacity: 1;
 display: flex;
@@ -106,6 +106,7 @@ justify-content: center;
 align-items: center;
 text-decoration: none;
 cursor: pointer;
+opacity: 1;
 }
 .view:hover{
     color: white;
@@ -120,7 +121,7 @@ cursor: pointer;
 
 .gallary-image {
     background-color: #eee;
-    height:10rem;
+    height:12rem;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -133,8 +134,7 @@ cursor: pointer;
 .gallary-image-2 {
 
     background-color: #eee;
-    filter: opacity(50%);
-    height:10rem ;
+    height:12rem ;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -172,14 +172,20 @@ cursor: pointer;
 
 
 .store-image {
-    width: 50%;
+   
     height:70%;
     transition: all .3s ease;
 }
+.overlay-image{
+   
+    height:70%;
+    transition: all .3s ease;
+    filter: opacity(0.1);
+}
 .store-text{
     font-size: 17px;
-    font-family: "Karla bold", sans-serif;
-    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    
 }
 
 
@@ -195,7 +201,13 @@ cursor: pointer;
     font-family: "Oswald-regular", sans-serif;
     font-size: 16px;
     color: #00a651;
-    font-weight: 500;
+    
+}
+.price-2{
+    font-family: "Oswald-regular", sans-serif;
+    font-size: 16px;
+    color: #00a651;
+    font-weight: 600;
 }
 .cart{
     position: absolute;
@@ -223,7 +235,7 @@ display: block;
         font-size: 12px;
     }
     .view{
-        left: 28%;
+
         font-size: 15px;
     }
 }
@@ -235,7 +247,7 @@ display: block;
         transition: all .3s;
     }
     .view{
-        left: 36%;
+        
     }
 
     .text-head{
@@ -256,7 +268,7 @@ display: block;
         transition: all .3s; */
     }
     .view{
-        left: 31%;
+       
     }
 
 }

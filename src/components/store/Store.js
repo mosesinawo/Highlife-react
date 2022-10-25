@@ -80,13 +80,13 @@ const Store = () => {
                     <div className='overlay'>
 
                         <div className='gallary-image-2'>
-                            <img src={main1} alt='main1' className='store-image' />
-                        </div>
+                            <img src={main1} alt='main1' className='overlay-image' />
                         <Link to='/product' className='view'>View</Link>
+                        </div>
                         <div className='gallary-text'>
                             <h6 className='store-text'>Dig it: Find your destiny in the dirt</h6>
                            
-                            <figcaption className='price'> <i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to cart </figcaption>
+                            <figcaption className='price-2'> <i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to cart </figcaption>
 
                         </div>
 
@@ -108,13 +108,13 @@ const Store = () => {
                     <div className='overlay'>
 
                         <div className='gallary-image-2'>
-                            <img src={main2} alt='main2' className='store-image' />
+                            <img src={main2} alt='main2' className='overlay-image' />
+                        <Link className='view'>View</Link>
                         </div>
-                        <h6 className='view'>View</h6>
                         <div className='gallary-text'>
                             <h6 className='store-text'>View
                                 Fly away beautiful soul</h6>
-                            <figcaption className='price'> <i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to cart</figcaption>
+                            <figcaption className='price-2'> <i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to cart</figcaption>
 
                         </div>
 
@@ -136,12 +136,12 @@ const Store = () => {
                     <div className='overlay'>
 
                         <div className='gallary-image-2'>
-                            <img src={main3} alt='main3' className='store-image' />
-                        </div>
+                            <img src={main3} alt='main3' className='overlay-image' />
                         <Link className='view'>View</Link>
+                        </div>
                         <div className='gallary-text'>
                             <h6 className='store-text'>How to be Brave</h6>
-                            <figcaption className='price'> <i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to cart</figcaption>
+                            <figcaption className='price-2'> <i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to cart</figcaption>
 
                         </div>
 
@@ -163,12 +163,12 @@ const Store = () => {
                     <div className='overlay'>
 
                         <div className='gallary-image-2'>
-                            <img src={main4} alt='main4' className='store-image' />
-                        </div>
+                            <img src={main4} alt='main4' className='overlay-image' />
                         <Link className='view'>View</Link>
+                        </div>
                         <div className='gallary-text'>
                             <h6 className='store-text'>Praise before my Breakthrough</h6>
-                            <figcaption className='price'> <i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to cart</figcaption>
+                            <figcaption className='price-2'> <i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to cart</figcaption>
 
                         </div>
 
@@ -193,12 +193,12 @@ const Store = () => {
                     <div className='overlay'>
 
                         <div className='gallary-image-2'>
-                            <img src={main5} alt='main5' className='store-image' />
+                            <img src={main5} alt='main5' className='overlay-image' />
+                        <Link className='view'>View</Link>
                         </div>
-                        <h6 className='view'>View</h6>
                         <div className='gallary-text'>
                             <h6 className='store-text'>Walk your window, no one else will do it for you</h6>
-                            <figcaption className='price'> <i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to cart</figcaption>
+                            <figcaption className='price-2'> <i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to cart</figcaption>
 
                         </div>
 
@@ -219,12 +219,12 @@ const Store = () => {
                     <div className='overlay'>
 
                         <div className='gallary-image-2'>
-                            <img src={main6} alt='main6' className='store-image' />
-                        </div>
+                            <img src={main6} alt='main6' className='overlay-image' />
                         <Link className='view'>View</Link>
+                        </div>
                         <div className='gallary-text'>
                             <h6 className='store-text'>Conscious spirit (In vinyl)</h6>
-                            <figcaption className='price'><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to cart</figcaption>
+                            <figcaption className='price-2'><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to cart</figcaption>
 
                         </div>
 
@@ -245,12 +245,12 @@ const Store = () => {
                     <div className='overlay'>
 
                         <div className='gallary-image-2'>
-                            <img src={main6} alt='main6' className='store-image' />
-                        </div>
+                            <img src={main7} alt='main6' className='overlay-image' />
                         <Link className='view'>View</Link>
+                        </div>
                         <div className='gallary-text'>
                             <h6 className='store-text'>Poverty riches and wealth</h6>
-                            <figcaption className='price'><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to cart</figcaption>
+                            <figcaption className='price-2'><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to cart</figcaption>
 
                         </div>
 
@@ -271,12 +271,12 @@ const Store = () => {
                     <div className='overlay'>
 
                         <div className='gallary-image-2'>
-                            <img src={main8} alt='main8' className='store-image' />
-                        </div>
+                            <img src={main8} alt='main8' className='overlay-image' />
                         <Link className='view'>View</Link>
+                        </div>
                         <div className='gallary-text'>
                             <h6 className='store-text'>Crash the Chatterbox</h6>
-                            <figcaption className='price'><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to cart</figcaption>
+                            <figcaption className='price-2'><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to cart</figcaption>
 
                         </div>
 
@@ -300,12 +300,12 @@ const Store = () => {
                     <div className='overlay'>
 
                         <div className='gallary-image-2'>
-                            <img src={main9} alt='main9' className='store-image' />
-                        </div>
+                            <img src={main9} alt='main9' className='overlay-image' />
                         <Link className='view'>View</Link>
+                        </div>
                         <div className='gallary-text'>
                             <h6 className='store-text'>Don't stop: a spiritual guide to never ever quitting</h6>
-                            <figcaption className='price'><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to cart</figcaption>
+                            <figcaption className='price-2'><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to cart</figcaption>
 
                         </div>
 
@@ -326,12 +326,12 @@ const Store = () => {
                     <div className='overlay'>
 
                         <div className='gallary-image-2'>
-                            <img src={main10} alt='main10' className='store-image' />
-                        </div>
+                            <img src={main10} alt='main10' className='overlay-image' />
                         <Link className='view'>View</Link>
+                        </div>
                         <div className='gallary-text'>
                             <h6 className='store-text'>Mighty to save all who call</h6>
-                            <figcaption className='price'><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to cart</figcaption>
+                            <figcaption className='price-2'><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to cart</figcaption>
 
                         </div>
 
@@ -352,12 +352,12 @@ const Store = () => {
                     <div className='overlay'>
 
                         <div className='gallary-image-2'>
-                            <img src={main11} alt='main11' className='store-image' />
-                        </div>
+                            <img src={main11} alt='main11' className='overlay-image' />
                         <Link className='view'>View</Link>
+                        </div>
                         <div className='gallary-text'>
                             <h6 className='store-text'>Faith is Trust (Tees)</h6>
-                            <figcaption className='price'><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to cart</figcaption>
+                            <figcaption className='price-2'><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to cart</figcaption>
 
                         </div>
 
@@ -379,12 +379,12 @@ const Store = () => {
                     <div className='overlay'>
 
                         <div className='gallary-image-2'>
-                        <img src={main12} alt='main12' className='store-image' />
-                        </div>
+                        <img src={main12} alt='main12' className='storoverlayge' />
                         <Link className='view'>View</Link>
+                        </div>
                         <div className='gallary-text'>
                             <h6 className='store-text'>Take bake what's mine</h6>
-                            <figcaption className='price'><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to cart</figcaption>
+                            <figcaption className='price-2'><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to cart</figcaption>
 
                         </div>
 
