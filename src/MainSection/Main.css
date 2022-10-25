@@ -122,6 +122,9 @@ margin-top:4rem;
 .inner-text-2:hover{
     color: #fff;
 }
+.carousel-container{
+    display:none;
+}
 @media only screen and (max-width:1300px){
     .body{
         padding: 2rem 3rem;
@@ -154,6 +157,9 @@ margin-bottom: 6rem;
         flex-direction: column;
         justify-content: center;
        
+    }
+    .carousel-container{
+        display:block;
     }
     .inner-text-2{
         display: block;

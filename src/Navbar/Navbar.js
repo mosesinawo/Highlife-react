@@ -32,7 +32,7 @@ const HeaderNavbar = () => {
                     <li onClick={hideLink} className="nav-li"> <Link to='/store' className="navbar-items">Store</Link></li>
                     <li onClick={hideLink} className="nav-li"> <Link to='/highlifetv' className="navbar-items">HighLife Tv</Link></li>
                     <li onClick={hideLink} className="nav-li"> <Link to='/niara' className="navbar-items"> Naira</Link></li>
-                    <li onClick={hideLink} className=""> <Link className="navbar-items">
+                    <li onClick={hideLink} className="nav-li"> <Link className="navbar-items">
                         <i class="fa fa-search" aria-hidden="true"></i>
                     </Link></li>
                     <div className="user1">
