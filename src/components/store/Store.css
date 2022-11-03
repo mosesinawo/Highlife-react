@@ -187,6 +187,9 @@ opacity: 1;
     font-family: "Roboto", sans-serif;
     
 }
+.special{
+    padding-right: 24px;
+}
 
 
 .store-image:hover {
@@ -259,9 +262,12 @@ display: block;
     .text-name{
         font-size: 0.8rem;
     }
+    .main{
+        height: 40vh;
+    }
 
 }
-@media only screen and (max-width: 414px){
+@media only screen and (max-width: 500px){
     .store-container{
         /* grid-template-columns: 1fr;
         grid-template-rows: auto;
@@ -269,6 +275,12 @@ display: block;
     }
     .view{
        
+    }
+    .main{
+        height: 35vh;
+    }
+    .special{
+        padding-right: 24px;
     }
 
 }

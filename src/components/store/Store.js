@@ -99,7 +99,7 @@ const Store = () => {
                             <img src={main2} alt='main2' className='store-image' />
                         </div>
                         <div className='gallary-text'>
-                            <h6 className='store-text' >View
+                            <h6 className='store-text special' >View
                                 Fly away beautiful soul</h6>
                             <figcaption className='price'>&#8358;1,000</figcaption>
 
@@ -112,7 +112,7 @@ const Store = () => {
                         <Link className='view'>View</Link>
                         </div>
                         <div className='gallary-text'>
-                            <h6 className='store-text'>View
+                            <h6 className='store-text special'>View
                                 Fly away beautiful soul</h6>
                             <figcaption className='price-2'> <i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to cart</figcaption>
 
@@ -211,7 +211,7 @@ const Store = () => {
                             <img src={main6} alt='main6' className='store-image' />
                         </div>
                         <div className='gallary-text'>
-                            <h6 className='store-text'>Conscious spirit (In vinyl)</h6>
+                            <h6 className='store-text'>Conscious spirit <br/> (In vinyl)</h6>
                             <figcaption className='price'>&#8358;1000</figcaption>
 
                         </div>
@@ -223,7 +223,7 @@ const Store = () => {
                         <Link className='view'>View</Link>
                         </div>
                         <div className='gallary-text'>
-                            <h6 className='store-text'>Conscious spirit (In vinyl)</h6>
+                            <h6 className='store-text'>Conscious spirit <br/> (In vinyl)</h6>
                             <figcaption className='price-2'><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to cart</figcaption>
 
                         </div>
@@ -318,7 +318,7 @@ const Store = () => {
                             <img src={main10} alt='main10' className='store-image' />
                         </div>
                         <div className='gallary-text'>
-                            <h6 className='store-text'>Mighty to save all who call</h6>
+                            <h6 className='store-text'>Mighty to save all who <br/> call</h6>
                             <figcaption className='price'>&#8358;1000</figcaption>
 
                         </div>
@@ -330,7 +330,7 @@ const Store = () => {
                         <Link className='view'>View</Link>
                         </div>
                         <div className='gallary-text'>
-                            <h6 className='store-text'>Mighty to save all who call</h6>
+                            <h6 className='store-text'>Mighty to save all who <br/> call</h6>
                             <figcaption className='price-2'><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to cart</figcaption>
 
                         </div>
@@ -379,7 +379,7 @@ const Store = () => {
                     <div className='overlay'>
 
                         <div className='gallary-image-2'>
-                        <img src={main12} alt='main12' className='storoverlayge' />
+                        <img src={main12} alt='main12' className='overlay-image' />
                         <Link className='view'>View</Link>
                         </div>
                         <div className='gallary-text'>
