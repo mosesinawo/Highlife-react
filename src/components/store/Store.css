@@ -175,12 +175,14 @@ opacity: 1;
    
     height:70%;
     transition: all .3s ease;
+    width:6rem;
 }
 .overlay-image{
    
     height:70%;
     transition: all .3s ease;
     filter: opacity(0.1);
+    width:6rem;
 }
 .store-text{
     font-size: 17px;
