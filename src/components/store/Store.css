@@ -190,7 +190,7 @@ opacity: 1;
     
 }
 .special{
-    padding-right: 24px;
+    padding-right: 50px;
 }
 
 
@@ -243,6 +243,10 @@ display: block;
 
         font-size: 15px;
     }
+
+    .special{
+        padding-right: 0;
+    } 
 }
 @media only screen and (max-width: 767px){
     .store-container{
@@ -251,9 +255,10 @@ display: block;
         gap: 1rem;
         transition: all .3s;
     }
-    .view{
-        
-    }
+    .special{
+        padding-right: 0;
+    } 
+    
 
     .text-head{
         font-size: 1.5rem;
@@ -281,8 +286,6 @@ display: block;
     .main{
         height: 35vh;
     }
-    .special{
-        padding-right: 24px;
-    }
+   
 
 }
